@@ -752,10 +752,10 @@
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 1069);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 1063);
             this.barDockControlBottom.Manager = this.barManager1;
             this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
-            this.barDockControlBottom.Size = new System.Drawing.Size(2030, 31);
+            this.barDockControlBottom.Size = new System.Drawing.Size(2030, 37);
             // 
             // barDockControlLeft
             // 
@@ -764,7 +764,7 @@
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 59);
             this.barDockControlLeft.Manager = this.barManager1;
             this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 1010);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 1004);
             // 
             // barDockControlRight
             // 
@@ -773,7 +773,7 @@
             this.barDockControlRight.Location = new System.Drawing.Point(2030, 59);
             this.barDockControlRight.Manager = this.barManager1;
             this.barDockControlRight.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 1010);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 1004);
             // 
             // barStaticItem2
             // 
@@ -928,7 +928,7 @@
             this.tileNavPane1.Dock = System.Windows.Forms.DockStyle.Top;
             this.tileNavPane1.Location = new System.Drawing.Point(0, 59);
             this.tileNavPane1.MainButtonBehavior = DevExpress.XtraBars.Navigation.TileNavPaneMainButtonBehavior.ShowDefaultCategoryItems;
-            this.tileNavPane1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tileNavPane1.Margin = new System.Windows.Forms.Padding(4);
             this.tileNavPane1.Name = "tileNavPane1";
             this.tileNavPane1.OptionsPrimaryDropDown.ShowItemShadow = DevExpress.Utils.DefaultBoolean.True;
             this.tileNavPane1.Size = new System.Drawing.Size(2030, 27);

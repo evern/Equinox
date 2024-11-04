@@ -39,7 +39,7 @@
             // 
             // btnAcceptable
             // 
-            this.btnAcceptable.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAcceptable.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAcceptable.Appearance.Options.UseFont = true;
             this.btnAcceptable.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAcceptable.Image = ((System.Drawing.Image)(resources.GetObject("btnAcceptable.Image")));
@@ -55,7 +55,7 @@
             // 
             // btnNotApplicable
             // 
-            this.btnNotApplicable.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNotApplicable.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNotApplicable.Appearance.Options.UseFont = true;
             this.btnNotApplicable.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnNotApplicable.Image = ((System.Drawing.Image)(resources.GetObject("btnNotApplicable.Image")));
@@ -82,7 +82,7 @@
             // 
             // btnPunchlist
             // 
-            this.btnPunchlist.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPunchlist.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPunchlist.Appearance.Options.UseFont = true;
             this.btnPunchlist.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnPunchlist.Image = ((System.Drawing.Image)(resources.GetObject("btnPunchlist.Image")));

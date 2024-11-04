@@ -51,7 +51,7 @@
             this.cmbDiscipline.Location = new System.Drawing.Point(110, 10);
             this.cmbDiscipline.Margin = new System.Windows.Forms.Padding(0);
             this.cmbDiscipline.Name = "cmbDiscipline";
-            this.cmbDiscipline.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbDiscipline.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbDiscipline.Properties.Appearance.Options.UseFont = true;
             this.cmbDiscipline.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -61,7 +61,7 @@
             // 
             // lblDiscipline
             // 
-            this.lblDiscipline.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDiscipline.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDiscipline.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.lblDiscipline.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top;
             this.lblDiscipline.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
@@ -86,7 +86,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.Appearance.Options.UseFont = true;
             this.btnCancel.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnCancel.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.Image")));
@@ -99,7 +99,7 @@
             // 
             // btnOk
             // 
-            this.btnOk.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOk.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOk.Appearance.Options.UseFont = true;
             this.btnOk.Dock = System.Windows.Forms.DockStyle.Left;
             this.btnOk.Image = ((System.Drawing.Image)(resources.GetObject("btnOk.Image")));

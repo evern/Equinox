@@ -73,7 +73,7 @@
             // 
             // lblProject
             // 
-            this.lblProject.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProject.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProject.Appearance.Options.UseFont = true;
             this.lblProject.Appearance.Options.UseTextOptions = true;
             this.lblProject.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
@@ -107,7 +107,7 @@
             this.dateEditExpiry.Location = new System.Drawing.Point(164, 14);
             this.dateEditExpiry.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.dateEditExpiry.Name = "dateEditExpiry";
-            this.dateEditExpiry.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateEditExpiry.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateEditExpiry.Properties.Appearance.Options.UseFont = true;
             this.dateEditExpiry.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -118,7 +118,7 @@
             // 
             // lblSerial
             // 
-            this.lblSerial.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSerial.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSerial.Appearance.Options.UseFont = true;
             this.lblSerial.Appearance.Options.UseTextOptions = true;
             this.lblSerial.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
@@ -156,7 +156,7 @@
             // 
             // lblModel
             // 
-            this.lblModel.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblModel.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblModel.Appearance.Options.UseFont = true;
             this.lblModel.Appearance.Options.UseTextOptions = true;
             this.lblModel.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
@@ -203,7 +203,7 @@
             // 
             // lblType
             // 
-            this.lblType.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblType.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblType.Appearance.Options.UseFont = true;
             this.lblType.Appearance.Options.UseTextOptions = true;
             this.lblType.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
@@ -241,7 +241,7 @@
             // 
             // lblMake
             // 
-            this.lblMake.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMake.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMake.Appearance.Options.UseFont = true;
             this.lblMake.Appearance.Options.UseTextOptions = true;
             this.lblMake.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
@@ -279,7 +279,7 @@
             // 
             // lblAssetNumber
             // 
-            this.lblAssetNumber.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAssetNumber.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAssetNumber.Appearance.Options.UseFont = true;
             this.lblAssetNumber.Appearance.Options.UseTextOptions = true;
             this.lblAssetNumber.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
@@ -324,7 +324,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.Appearance.Options.UseFont = true;
             this.btnCancel.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnCancel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.ImageOptions.Image")));
@@ -338,7 +338,7 @@
             // 
             // btnOk
             // 
-            this.btnOk.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOk.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOk.Appearance.Options.UseFont = true;
             this.btnOk.Dock = System.Windows.Forms.DockStyle.Left;
             this.btnOk.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnOk.ImageOptions.Image")));

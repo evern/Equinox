@@ -141,7 +141,7 @@
             // 
             // btnGenerate
             // 
-            this.btnGenerate.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGenerate.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerate.Appearance.Options.UseFont = true;
             this.btnGenerate.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnGenerate.Image = ((System.Drawing.Image)(resources.GetObject("btnGenerate.Image")));
@@ -200,7 +200,7 @@
             // 
             // lblXMLType
             // 
-            this.lblXMLType.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblXMLType.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblXMLType.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.lblXMLType.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.lblXMLType.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
@@ -234,7 +234,7 @@
             // 
             // btnXMLBrowse
             // 
-            this.btnXMLBrowse.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXMLBrowse.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXMLBrowse.Appearance.Options.UseFont = true;
             this.btnXMLBrowse.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnXMLBrowse.Image = ((System.Drawing.Image)(resources.GetObject("btnXMLBrowse.Image")));
@@ -267,7 +267,7 @@
             // 
             // lblXMLFolder
             // 
-            this.lblXMLFolder.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblXMLFolder.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblXMLFolder.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.lblXMLFolder.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top;
             this.lblXMLFolder.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
@@ -301,7 +301,7 @@
             // 
             // btnUpdateBrowse
             // 
-            this.btnUpdateBrowse.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateBrowse.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdateBrowse.Appearance.Options.UseFont = true;
             this.btnUpdateBrowse.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnUpdateBrowse.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdateBrowse.Image")));
@@ -335,7 +335,7 @@
             // 
             // lblFolder
             // 
-            this.lblFolder.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFolder.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFolder.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.lblFolder.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top;
             this.lblFolder.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
@@ -369,7 +369,7 @@
             // 
             // lblSSHKeyPass
             // 
-            this.lblSSHKeyPass.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSSHKeyPass.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSSHKeyPass.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.lblSSHKeyPass.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top;
             this.lblSSHKeyPass.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
@@ -403,7 +403,7 @@
             // 
             // btnKeyBrowse
             // 
-            this.btnKeyBrowse.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKeyBrowse.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKeyBrowse.Appearance.Options.UseFont = true;
             this.btnKeyBrowse.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnKeyBrowse.Image = ((System.Drawing.Image)(resources.GetObject("btnKeyBrowse.Image")));
@@ -432,7 +432,7 @@
             this.checkEncrypt.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkEncrypt.Location = new System.Drawing.Point(230, 10);
             this.checkEncrypt.Name = "checkEncrypt";
-            this.checkEncrypt.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkEncrypt.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkEncrypt.Properties.Appearance.Options.UseFont = true;
             this.checkEncrypt.Properties.Caption = "Encrypt";
             this.checkEncrypt.Size = new System.Drawing.Size(70, 19);
@@ -449,7 +449,7 @@
             // 
             // labelControl3
             // 
-            this.labelControl3.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl3.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl3.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.labelControl3.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top;
             this.labelControl3.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
@@ -483,7 +483,7 @@
             // 
             // labelControl2
             // 
-            this.labelControl2.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl2.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl2.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.labelControl2.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top;
             this.labelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
@@ -517,7 +517,7 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl1.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.labelControl1.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top;
             this.labelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
@@ -552,7 +552,7 @@
             // 
             // labelControl4
             // 
-            this.labelControl4.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl4.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl4.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.labelControl4.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top;
             this.labelControl4.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
@@ -587,7 +587,7 @@
             // 
             // labelControl5
             // 
-            this.labelControl5.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl5.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl5.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.labelControl5.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top;
             this.labelControl5.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
@@ -622,7 +622,7 @@
             // 
             // lblFtpPath
             // 
-            this.lblFtpPath.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFtpPath.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFtpPath.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.lblFtpPath.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top;
             this.lblFtpPath.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
@@ -657,7 +657,7 @@
             // 
             // lblFtp
             // 
-            this.lblFtp.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFtp.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFtp.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.lblFtp.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top;
             this.lblFtp.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;

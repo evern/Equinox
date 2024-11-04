@@ -19,7 +19,7 @@ namespace CheckmateDX
         [STAThread]
         static void Main()
         {
-            DevExpress.Utils.AppearanceObject.DefaultFont = new System.Drawing.Font("Tahoma", 10f);
+            DevExpress.Utils.AppearanceObject.DefaultFont = new System.Drawing.Font("Open Sans", 10f);
             if (Environment.OSVersion.Version.Major >= 6) SetProcessDPIAware();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

@@ -170,9 +170,9 @@
             this.btnAddTemplate.Caption = "Add &Template";
             this.btnAddTemplate.Id = 0;
             this.btnAddTemplate.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnAddTemplate.ImageOptions.Image")));
-            this.btnAddTemplate.ItemAppearance.Normal.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddTemplate.ItemAppearance.Normal.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddTemplate.ItemAppearance.Normal.Options.UseFont = true;
-            this.btnAddTemplate.ItemAppearance.Pressed.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddTemplate.ItemAppearance.Pressed.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddTemplate.ItemAppearance.Pressed.Options.UseFont = true;
             this.btnAddTemplate.Name = "btnAddTemplate";
             this.btnAddTemplate.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
@@ -189,9 +189,9 @@
             this.btnAddWorkflow.Caption = "Add &Workflow";
             this.btnAddWorkflow.Id = 11;
             this.btnAddWorkflow.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnAddWorkflow.ImageOptions.Image")));
-            this.btnAddWorkflow.ItemAppearance.Normal.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddWorkflow.ItemAppearance.Normal.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddWorkflow.ItemAppearance.Normal.Options.UseFont = true;
-            this.btnAddWorkflow.ItemAppearance.Pressed.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddWorkflow.ItemAppearance.Pressed.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddWorkflow.ItemAppearance.Pressed.Options.UseFont = true;
             this.btnAddWorkflow.Name = "btnAddWorkflow";
             this.btnAddWorkflow.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
@@ -202,9 +202,9 @@
             this.btnEditWorkflow.Caption = "Edit";
             this.btnEditWorkflow.Id = 14;
             this.btnEditWorkflow.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnEditWorkflow.ImageOptions.Image")));
-            this.btnEditWorkflow.ItemAppearance.Normal.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditWorkflow.ItemAppearance.Normal.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditWorkflow.ItemAppearance.Normal.Options.UseFont = true;
-            this.btnEditWorkflow.ItemAppearance.Pressed.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditWorkflow.ItemAppearance.Pressed.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditWorkflow.ItemAppearance.Pressed.Options.UseFont = true;
             this.btnEditWorkflow.Name = "btnEditWorkflow";
             this.btnEditWorkflow.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
@@ -215,9 +215,9 @@
             this.btnDeleteWorkflow.Caption = "Delete";
             this.btnDeleteWorkflow.Id = 15;
             this.btnDeleteWorkflow.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDeleteWorkflow.ImageOptions.Image")));
-            this.btnDeleteWorkflow.ItemAppearance.Normal.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteWorkflow.ItemAppearance.Normal.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteWorkflow.ItemAppearance.Normal.Options.UseFont = true;
-            this.btnDeleteWorkflow.ItemAppearance.Pressed.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteWorkflow.ItemAppearance.Pressed.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteWorkflow.ItemAppearance.Pressed.Options.UseFont = true;
             this.btnDeleteWorkflow.Name = "btnDeleteWorkflow";
             this.btnDeleteWorkflow.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
@@ -228,9 +228,9 @@
             this.btnDesignTemplate.Caption = "D&esign Template";
             this.btnDesignTemplate.Id = 19;
             this.btnDesignTemplate.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDesignTemplate.ImageOptions.Image")));
-            this.btnDesignTemplate.ItemAppearance.Normal.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDesignTemplate.ItemAppearance.Normal.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDesignTemplate.ItemAppearance.Normal.Options.UseFont = true;
-            this.btnDesignTemplate.ItemAppearance.Pressed.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDesignTemplate.ItemAppearance.Pressed.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDesignTemplate.ItemAppearance.Pressed.Options.UseFont = true;
             this.btnDesignTemplate.Name = "btnDesignTemplate";
             this.btnDesignTemplate.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
@@ -583,7 +583,7 @@
             this.cmbDiscipline.Location = new System.Drawing.Point(152, 2);
             this.cmbDiscipline.Margin = new System.Windows.Forms.Padding(0);
             this.cmbDiscipline.Name = "cmbDiscipline";
-            this.cmbDiscipline.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbDiscipline.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbDiscipline.Properties.Appearance.Options.UseFont = true;
             this.cmbDiscipline.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -595,7 +595,7 @@
             // 
             // labelControl5
             // 
-            this.labelControl5.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl5.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl5.Appearance.Options.UseFont = true;
             this.labelControl5.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl5.Dock = System.Windows.Forms.DockStyle.Left;

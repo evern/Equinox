@@ -75,7 +75,7 @@ namespace CheckmateDX
             InitializeComponent();
             _iTRGuid = TemplateTagWBS.wtITRGuid;
             _doNotShowWaitForm = true;
-            customRichEdit1.Document.DefaultCharacterProperties.FontName = "Candara";
+            customRichEdit1.Document.DefaultCharacterProperties.FontName = "Open Sans";
             customRichEdit1.Document.DefaultCharacterProperties.FontSize = 9;
 
             _template = TemplateTagWBS.wtDisplayAttachTemplate;
@@ -194,7 +194,7 @@ namespace CheckmateDX
             InitializeComponent();
 
             _fontSizeOffset = float.Parse(fontSizeOffset.ToString());
-            customRichEdit1.Document.DefaultCharacterProperties.FontName = "Candara";
+            customRichEdit1.Document.DefaultCharacterProperties.FontName = "Open Sans";
             customRichEdit1.Document.DefaultCharacterProperties.FontSize = 9;
 
             _iTRGuid = TemplateTagWBS.wtITRGuid;
@@ -962,7 +962,7 @@ namespace CheckmateDX
             SubDocument subDocument = range.BeginUpdateDocument();
             CharacterProperties cp = subDocument.BeginUpdateCharacters(range);
             cp.Bold = true;
-            cp.FontName = "Candara";
+            cp.FontName = "Open Sans";
             cp.FontSize = 9;
             subDocument.EndUpdateCharacters(cp);
             range.EndUpdateDocument(subDocument);
@@ -1030,7 +1030,7 @@ namespace CheckmateDX
 
         private void customRichEdit1_DocumentLoaded(object sender, EventArgs e)
         {
-            customRichEdit1.Document.DefaultCharacterProperties.FontName = "Candara";
+            customRichEdit1.Document.DefaultCharacterProperties.FontName = "Open Sans";
             customRichEdit1.Document.DefaultCharacterProperties.FontSize = 9;
         }
 

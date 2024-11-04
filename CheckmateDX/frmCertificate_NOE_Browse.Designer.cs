@@ -244,9 +244,9 @@ namespace CheckmateDX
             this.btnAdd.Caption = "&Add";
             this.btnAdd.Id = 0;
             this.btnAdd.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.ImageOptions.Image")));
-            this.btnAdd.ItemAppearance.Normal.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.ItemAppearance.Normal.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ItemAppearance.Normal.Options.UseFont = true;
-            this.btnAdd.ItemAppearance.Pressed.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.ItemAppearance.Pressed.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ItemAppearance.Pressed.Options.UseFont = true;
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
@@ -258,9 +258,9 @@ namespace CheckmateDX
             this.btnChangeDescription.Caption = "&Change Description";
             this.btnChangeDescription.Id = 1;
             this.btnChangeDescription.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnChangeDescription.ImageOptions.Image")));
-            this.btnChangeDescription.ItemAppearance.Normal.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChangeDescription.ItemAppearance.Normal.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChangeDescription.ItemAppearance.Normal.Options.UseFont = true;
-            this.btnChangeDescription.ItemAppearance.Pressed.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChangeDescription.ItemAppearance.Pressed.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChangeDescription.ItemAppearance.Pressed.Options.UseFont = true;
             this.btnChangeDescription.Name = "btnChangeDescription";
             this.btnChangeDescription.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
@@ -271,9 +271,9 @@ namespace CheckmateDX
             this.btnDelete.Caption = "&Delete";
             this.btnDelete.Id = 2;
             this.btnDelete.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.ImageOptions.Image")));
-            this.btnDelete.ItemAppearance.Normal.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.ItemAppearance.Normal.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ItemAppearance.Normal.Options.UseFont = true;
-            this.btnDelete.ItemAppearance.Pressed.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.ItemAppearance.Pressed.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ItemAppearance.Pressed.Options.UseFont = true;
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
@@ -602,7 +602,7 @@ namespace CheckmateDX
             // 
             // btnComment
             // 
-            this.btnComment.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComment.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnComment.Appearance.Options.UseFont = true;
             this.btnComment.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnComment.ImageOptions.Image")));
             this.btnComment.Location = new System.Drawing.Point(424, 2);
@@ -618,7 +618,7 @@ namespace CheckmateDX
             this.txtComments.Location = new System.Drawing.Point(64, 72);
             this.txtComments.Margin = new System.Windows.Forms.Padding(2, 15, 2, 2);
             this.txtComments.Name = "txtComments";
-            this.txtComments.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtComments.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtComments.Properties.Appearance.Options.UseFont = true;
             this.txtComments.Size = new System.Drawing.Size(510, 30);
             this.txtComments.TabIndex = 6;

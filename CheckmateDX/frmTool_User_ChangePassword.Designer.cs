@@ -60,7 +60,7 @@
             this.txtNewPassword2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtNewPassword2.Location = new System.Drawing.Point(130, 10);
             this.txtNewPassword2.Name = "txtNewPassword2";
-            this.txtNewPassword2.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNewPassword2.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNewPassword2.Properties.Appearance.Options.UseFont = true;
             this.txtNewPassword2.Properties.UseSystemPasswordChar = true;
             this.txtNewPassword2.Size = new System.Drawing.Size(198, 38);
@@ -69,7 +69,7 @@
             // 
             // lblNewPassword2
             // 
-            this.lblNewPassword2.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNewPassword2.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNewPassword2.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.lblNewPassword2.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top;
             this.lblNewPassword2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
@@ -97,7 +97,7 @@
             this.txtCurrentPassword.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtCurrentPassword.Location = new System.Drawing.Point(130, 10);
             this.txtCurrentPassword.Name = "txtCurrentPassword";
-            this.txtCurrentPassword.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCurrentPassword.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCurrentPassword.Properties.Appearance.Options.UseFont = true;
             this.txtCurrentPassword.Properties.UseSystemPasswordChar = true;
             this.txtCurrentPassword.Size = new System.Drawing.Size(198, 38);
@@ -106,7 +106,7 @@
             // 
             // lblCurrentPassword
             // 
-            this.lblCurrentPassword.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentPassword.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCurrentPassword.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.lblCurrentPassword.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top;
             this.lblCurrentPassword.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
@@ -123,7 +123,7 @@
             this.txtNewPassword1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtNewPassword1.Location = new System.Drawing.Point(130, 10);
             this.txtNewPassword1.Name = "txtNewPassword1";
-            this.txtNewPassword1.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNewPassword1.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNewPassword1.Properties.Appearance.Options.UseFont = true;
             this.txtNewPassword1.Properties.UseSystemPasswordChar = true;
             this.txtNewPassword1.Size = new System.Drawing.Size(198, 38);
@@ -132,7 +132,7 @@
             // 
             // lblNewPassword1
             // 
-            this.lblNewPassword1.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNewPassword1.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNewPassword1.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.lblNewPassword1.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top;
             this.lblNewPassword1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
@@ -180,7 +180,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.Appearance.Options.UseFont = true;
             this.btnCancel.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnCancel.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.Image")));
@@ -193,7 +193,7 @@
             // 
             // btnOk
             // 
-            this.btnOk.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOk.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOk.Appearance.Options.UseFont = true;
             this.btnOk.Dock = System.Windows.Forms.DockStyle.Left;
             this.btnOk.Image = ((System.Drawing.Image)(resources.GetObject("btnOk.Image")));

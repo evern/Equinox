@@ -101,9 +101,9 @@
             this.bBtnAccept.Caption = "&Accept";
             this.bBtnAccept.Glyph = ((System.Drawing.Image)(resources.GetObject("bBtnAccept.Glyph")));
             this.bBtnAccept.Id = 1;
-            this.bBtnAccept.ItemAppearance.Normal.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bBtnAccept.ItemAppearance.Normal.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bBtnAccept.ItemAppearance.Normal.Options.UseFont = true;
-            this.bBtnAccept.ItemAppearance.Pressed.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bBtnAccept.ItemAppearance.Pressed.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bBtnAccept.ItemAppearance.Pressed.Options.UseFont = true;
             this.bBtnAccept.Name = "bBtnAccept";
             this.bBtnAccept.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
@@ -114,9 +114,9 @@
             this.bBtnClear.Caption = "C&lear";
             this.bBtnClear.Glyph = ((System.Drawing.Image)(resources.GetObject("bBtnClear.Glyph")));
             this.bBtnClear.Id = 2;
-            this.bBtnClear.ItemAppearance.Normal.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bBtnClear.ItemAppearance.Normal.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bBtnClear.ItemAppearance.Normal.Options.UseFont = true;
-            this.bBtnClear.ItemAppearance.Pressed.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bBtnClear.ItemAppearance.Pressed.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bBtnClear.ItemAppearance.Pressed.Options.UseFont = true;
             this.bBtnClear.Name = "bBtnClear";
             this.bBtnClear.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
@@ -127,9 +127,9 @@
             this.bBtnCancel.Caption = "&Cancel";
             this.bBtnCancel.Glyph = ((System.Drawing.Image)(resources.GetObject("bBtnCancel.Glyph")));
             this.bBtnCancel.Id = 3;
-            this.bBtnCancel.ItemAppearance.Normal.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bBtnCancel.ItemAppearance.Normal.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bBtnCancel.ItemAppearance.Normal.Options.UseFont = true;
-            this.bBtnCancel.ItemAppearance.Pressed.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bBtnCancel.ItemAppearance.Pressed.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bBtnCancel.ItemAppearance.Pressed.Options.UseFont = true;
             this.bBtnCancel.Name = "bBtnCancel";
             this.bBtnCancel.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;

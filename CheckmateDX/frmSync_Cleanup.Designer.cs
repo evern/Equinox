@@ -144,7 +144,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Appearance.Options.UseFont = true;
             this.btnExit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.ImageOptions.Image")));
             this.btnExit.Location = new System.Drawing.Point(806, 3);
@@ -156,7 +156,7 @@
             // 
             // btnPurge
             // 
-            this.btnPurge.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPurge.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPurge.Appearance.Options.UseFont = true;
             this.btnPurge.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnPurge.ImageOptions.Image")));
             this.btnPurge.Location = new System.Drawing.Point(700, 3);
@@ -168,7 +168,7 @@
             // 
             // btnTrim
             // 
-            this.btnTrim.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTrim.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTrim.Appearance.Options.UseFont = true;
             this.btnTrim.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnTrim.ImageOptions.Image")));
             this.btnTrim.Location = new System.Drawing.Point(594, 3);

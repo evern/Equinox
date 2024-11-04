@@ -157,7 +157,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.Appearance.Options.UseFont = true;
             this.btnDelete.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.ImageOptions.Image")));
             this.btnDelete.Location = new System.Drawing.Point(1131, 971);
@@ -212,7 +212,7 @@
             // 
             // btnBrowsePicture
             // 
-            this.btnBrowsePicture.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBrowsePicture.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBrowsePicture.Appearance.Options.UseFont = true;
             this.btnBrowsePicture.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnBrowsePicture.ImageOptions.Image")));
             this.btnBrowsePicture.Location = new System.Drawing.Point(944, 459);
@@ -285,7 +285,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.Appearance.Options.UseFont = true;
             this.btnCancel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.ImageOptions.Image")));
             this.btnCancel.Location = new System.Drawing.Point(1503, 971);
@@ -298,7 +298,7 @@
             // 
             // btnShowITR
             // 
-            this.btnShowITR.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnShowITR.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnShowITR.Appearance.Options.UseFont = true;
             this.btnShowITR.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnShowITR.ImageOptions.Image")));
             this.btnShowITR.Location = new System.Drawing.Point(12, 945);
@@ -311,7 +311,7 @@
             // 
             // btnReject
             // 
-            this.btnReject.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReject.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReject.Appearance.Options.UseFont = true;
             this.btnReject.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnReject.ImageOptions.Image")));
             this.btnReject.Location = new System.Drawing.Point(758, 971);
@@ -363,7 +363,7 @@
             // 
             // btnProgress
             // 
-            this.btnProgress.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProgress.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProgress.Appearance.Options.UseFont = true;
             this.btnProgress.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnProgress.ImageOptions.Image")));
             this.btnProgress.Location = new System.Drawing.Point(385, 971);
@@ -376,7 +376,7 @@
             // 
             // btnTakePhoto
             // 
-            this.btnTakePhoto.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTakePhoto.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTakePhoto.Appearance.Options.UseFont = true;
             this.btnTakePhoto.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnTakePhoto.ImageOptions.Image")));
             this.btnTakePhoto.Location = new System.Drawing.Point(24, 459);
@@ -389,7 +389,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.Appearance.Options.UseFont = true;
             this.btnSave.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.ImageOptions.Image")));
             this.btnSave.Location = new System.Drawing.Point(12, 971);
@@ -405,7 +405,7 @@
             this.cmbPriority.Location = new System.Drawing.Point(91, 292);
             this.cmbPriority.Margin = new System.Windows.Forms.Padding(0);
             this.cmbPriority.Name = "cmbPriority";
-            this.cmbPriority.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbPriority.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbPriority.Properties.Appearance.Options.UseFont = true;
             this.cmbPriority.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -419,7 +419,7 @@
             this.cmbActionBy.Location = new System.Drawing.Point(91, 266);
             this.cmbActionBy.Margin = new System.Windows.Forms.Padding(0);
             this.cmbActionBy.Name = "cmbActionBy";
-            this.cmbActionBy.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbActionBy.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbActionBy.Properties.Appearance.Options.UseFont = true;
             this.cmbActionBy.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -433,7 +433,7 @@
             this.cmbCategory.Location = new System.Drawing.Point(126, 250);
             this.cmbCategory.Margin = new System.Windows.Forms.Padding(0);
             this.cmbCategory.Name = "cmbCategory";
-            this.cmbCategory.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbCategory.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbCategory.Properties.Appearance.Options.UseFont = true;
             this.cmbCategory.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -447,7 +447,7 @@
             this.cmbDiscipline.Location = new System.Drawing.Point(91, 240);
             this.cmbDiscipline.Margin = new System.Windows.Forms.Padding(0);
             this.cmbDiscipline.Name = "cmbDiscipline";
-            this.cmbDiscipline.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbDiscipline.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbDiscipline.Properties.Appearance.Options.UseFont = true;
             this.cmbDiscipline.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -460,7 +460,7 @@
             // 
             this.txtInspectionNote.Location = new System.Drawing.Point(91, 214);
             this.txtInspectionNote.Name = "txtInspectionNote";
-            this.txtInspectionNote.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtInspectionNote.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtInspectionNote.Properties.Appearance.Options.UseFont = true;
             this.txtInspectionNote.Size = new System.Drawing.Size(1781, 22);
             this.txtInspectionNote.StyleController = this.layoutControlMain;
@@ -470,7 +470,7 @@
             // 
             this.txtDescription.Location = new System.Drawing.Point(91, 188);
             this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescription.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescription.Properties.Appearance.Options.UseFont = true;
             this.txtDescription.Size = new System.Drawing.Size(1781, 22);
             this.txtDescription.StyleController = this.layoutControlMain;
@@ -480,7 +480,7 @@
             // 
             this.txtTitle.Location = new System.Drawing.Point(91, 162);
             this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTitle.Properties.Appearance.Options.UseFont = true;
             this.txtTitle.Size = new System.Drawing.Size(1781, 22);
             this.txtTitle.StyleController = this.layoutControlMain;
@@ -491,7 +491,7 @@
             this.cmbPunchlistItem.EditValue = "";
             this.cmbPunchlistItem.Location = new System.Drawing.Point(91, 136);
             this.cmbPunchlistItem.Name = "cmbPunchlistItem";
-            this.cmbPunchlistItem.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbPunchlistItem.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbPunchlistItem.Properties.Appearance.Options.UseFont = true;
             this.cmbPunchlistItem.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -506,7 +506,7 @@
             this.cmbITR.EditValue = "Ad-Hoc";
             this.cmbITR.Location = new System.Drawing.Point(91, 110);
             this.cmbITR.Name = "cmbITR";
-            this.cmbITR.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbITR.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbITR.Properties.Appearance.Options.UseFont = true;
             this.cmbITR.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -521,7 +521,7 @@
             this.searchLookUpTag.EditValue = "";
             this.searchLookUpTag.Location = new System.Drawing.Point(91, 84);
             this.searchLookUpTag.Name = "searchLookUpTag";
-            this.searchLookUpTag.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchLookUpTag.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchLookUpTag.Properties.Appearance.Options.UseFont = true;
             this.searchLookUpTag.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});

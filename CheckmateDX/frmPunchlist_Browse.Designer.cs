@@ -362,7 +362,7 @@
             // 
             // btnCreate
             // 
-            this.btnCreate.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreate.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCreate.Appearance.Options.UseFont = true;
             this.btnCreate.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCreate.ImageOptions.Image")));
             this.btnCreate.Location = new System.Drawing.Point(910, 1354);
@@ -799,7 +799,7 @@
             // 
             // btnCollapseAll
             // 
-            this.btnCollapseAll.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCollapseAll.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCollapseAll.Appearance.Options.UseFont = true;
             this.btnCollapseAll.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCollapseAll.ImageOptions.Image")));
             this.btnCollapseAll.Location = new System.Drawing.Point(2, 1354);
@@ -813,7 +813,7 @@
             // 
             // btnExpandAll
             // 
-            this.btnExpandAll.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExpandAll.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExpandAll.Appearance.Options.UseFont = true;
             this.btnExpandAll.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExpandAll.ImageOptions.Image")));
             this.btnExpandAll.Location = new System.Drawing.Point(304, 1354);
@@ -827,7 +827,7 @@
             // 
             // btnShowAll
             // 
-            this.btnShowAll.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnShowAll.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnShowAll.Appearance.Options.UseFont = true;
             this.btnShowAll.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnShowAll.ImageOptions.Image")));
             this.btnShowAll.Location = new System.Drawing.Point(608, 1354);
@@ -1190,7 +1190,7 @@
             // 
             // btnComment
             // 
-            this.btnComment.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComment.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnComment.Appearance.Options.UseFont = true;
             this.btnComment.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnComment.ImageOptions.Image")));
             this.btnComment.Location = new System.Drawing.Point(494, 3);
@@ -1206,7 +1206,7 @@
             this.txtComments.Location = new System.Drawing.Point(148, 10);
             this.txtComments.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
             this.txtComments.Name = "txtComments";
-            this.txtComments.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtComments.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtComments.Properties.Appearance.Options.UseFont = true;
             this.txtComments.Size = new System.Drawing.Size(340, 30);
             this.txtComments.TabIndex = 6;
@@ -2368,7 +2368,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Appearance.Options.UseFont = true;
             this.btnClose.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.ImageOptions.Image")));
             this.btnClose.Location = new System.Drawing.Point(2290, 1354);
@@ -2401,7 +2401,7 @@
             // 
             // btnPrintIndividual
             // 
-            this.btnPrintIndividual.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrintIndividual.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrintIndividual.Appearance.Options.UseFont = true;
             this.btnPrintIndividual.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnPrintIndividual.ImageOptions.Image")));
             this.btnPrintIndividual.Location = new System.Drawing.Point(288, 1354);
@@ -2414,7 +2414,7 @@
             // 
             // btnExportIndividual
             // 
-            this.btnExportIndividual.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExportIndividual.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExportIndividual.Appearance.Options.UseFont = true;
             this.btnExportIndividual.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExportIndividual.ImageOptions.Image")));
             this.btnExportIndividual.Location = new System.Drawing.Point(860, 1354);
@@ -2427,7 +2427,7 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEdit.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEdit.Appearance.Options.UseFont = true;
             this.btnEdit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnEdit.ImageOptions.Image")));
             this.btnEdit.Location = new System.Drawing.Point(2004, 1354);
@@ -2440,7 +2440,7 @@
             // 
             // btnPrint
             // 
-            this.btnPrint.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrint.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrint.Appearance.Options.UseFont = true;
             this.btnPrint.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnPrint.ImageOptions.Image")));
             this.btnPrint.Location = new System.Drawing.Point(2, 1354);
@@ -2453,7 +2453,7 @@
             // 
             // btnHistory
             // 
-            this.btnHistory.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistory.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHistory.Appearance.Options.UseFont = true;
             this.btnHistory.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnHistory.ImageOptions.Image")));
             this.btnHistory.Location = new System.Drawing.Point(1718, 1354);
@@ -2466,7 +2466,7 @@
             // 
             // btnImport
             // 
-            this.btnImport.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImport.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnImport.Appearance.Options.UseFont = true;
             this.btnImport.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnImport.ImageOptions.Image")));
             this.btnImport.Location = new System.Drawing.Point(1432, 1354);
@@ -2479,7 +2479,7 @@
             // 
             // btnExportExcel
             // 
-            this.btnExportExcel.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExportExcel.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExportExcel.Appearance.Options.UseFont = true;
             this.btnExportExcel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExportExcel.ImageOptions.Image")));
             this.btnExportExcel.Location = new System.Drawing.Point(1146, 1354);
@@ -2492,7 +2492,7 @@
             // 
             // btnExport
             // 
-            this.btnExport.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExport.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExport.Appearance.Options.UseFont = true;
             this.btnExport.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExport.ImageOptions.Image")));
             this.btnExport.Location = new System.Drawing.Point(574, 1354);

@@ -1179,7 +1179,7 @@ namespace CheckmateDX
             SubDocument subDocument = range.BeginUpdateDocument();
             CharacterProperties cp = subDocument.BeginUpdateCharacters(range);
             cp.Bold = true;
-            cp.FontName = "Candara";
+            cp.FontName = "Open Sans";
             cp.FontSize = 9;
             subDocument.EndUpdateCharacters(cp);
             range.EndUpdateDocument(subDocument);

@@ -234,7 +234,7 @@
             this.flowLayoutPanelSchedule.Controls.Add(this.btnDeleteType);
             this.flowLayoutPanelSchedule.Controls.Add(this.btnReport);
             this.flowLayoutPanelSchedule.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanelSchedule.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.flowLayoutPanelSchedule.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.flowLayoutPanelSchedule.Location = new System.Drawing.Point(2, 2);
             this.flowLayoutPanelSchedule.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanelSchedule.Name = "flowLayoutPanelSchedule";
@@ -244,7 +244,7 @@
             // 
             // btnAddType
             // 
-            this.btnAddType.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddType.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddType.Appearance.Options.UseFont = true;
             this.btnAddType.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnAddType.ImageOptions.Image")));
             this.btnAddType.Location = new System.Drawing.Point(8, 8);
@@ -259,7 +259,7 @@
             // 
             // btnEditType
             // 
-            this.btnEditType.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditType.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditType.Appearance.Options.UseFont = true;
             this.btnEditType.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnEditType.ImageOptions.Image")));
             this.btnEditType.Location = new System.Drawing.Point(166, 8);
@@ -275,7 +275,7 @@
             // 
             // btnDeleteType
             // 
-            this.btnDeleteType.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteType.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteType.Appearance.Options.UseFont = true;
             this.btnDeleteType.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDeleteType.ImageOptions.Image")));
             this.btnDeleteType.Location = new System.Drawing.Point(324, 8);
@@ -291,7 +291,7 @@
             // 
             // btnReport
             // 
-            this.btnReport.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReport.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReport.Appearance.Options.UseFont = true;
             this.btnReport.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnReport.ImageOptions.Image")));
             this.btnReport.Location = new System.Drawing.Point(482, 8);
@@ -475,7 +475,7 @@
             // 
             // btnTrimDuplicates
             // 
-            this.btnTrimDuplicates.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTrimDuplicates.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTrimDuplicates.Appearance.Options.UseFont = true;
             this.btnTrimDuplicates.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnTrimDuplicates.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnTrimDuplicates.ImageOptions.Image")));
@@ -492,7 +492,7 @@
             // 
             // btnCopyFrom
             // 
-            this.btnCopyFrom.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCopyFrom.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCopyFrom.Appearance.Options.UseFont = true;
             this.btnCopyFrom.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnCopyFrom.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCopyFrom.ImageOptions.Image")));
@@ -524,7 +524,7 @@
             this.cmbProject.Location = new System.Drawing.Point(152, 2);
             this.cmbProject.Margin = new System.Windows.Forms.Padding(0);
             this.cmbProject.Name = "cmbProject";
-            this.cmbProject.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbProject.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbProject.Properties.Appearance.Options.UseFont = true;
             this.cmbProject.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -537,7 +537,7 @@
             // 
             // labelControl5
             // 
-            this.labelControl5.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl5.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl5.Appearance.Options.UseFont = true;
             this.labelControl5.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl5.Dock = System.Windows.Forms.DockStyle.Left;

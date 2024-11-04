@@ -286,9 +286,9 @@
             this.bBtnAddTag.Caption = "&Tag";
             this.bBtnAddTag.Id = 0;
             this.bBtnAddTag.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("bBtnAddTag.ImageOptions.Image")));
-            this.bBtnAddTag.ItemAppearance.Normal.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bBtnAddTag.ItemAppearance.Normal.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bBtnAddTag.ItemAppearance.Normal.Options.UseFont = true;
-            this.bBtnAddTag.ItemAppearance.Pressed.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bBtnAddTag.ItemAppearance.Pressed.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bBtnAddTag.ItemAppearance.Pressed.Options.UseFont = true;
             this.bBtnAddTag.Name = "bBtnAddTag";
             // 
@@ -297,7 +297,7 @@
             this.bBtnAddWBS.Caption = "&WBS";
             this.bBtnAddWBS.Id = 1;
             this.bBtnAddWBS.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("bBtnAddWBS.ImageOptions.Image")));
-            this.bBtnAddWBS.ItemAppearance.Pressed.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bBtnAddWBS.ItemAppearance.Pressed.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bBtnAddWBS.ItemAppearance.Pressed.Options.UseFont = true;
             this.bBtnAddWBS.Name = "bBtnAddWBS";
             // 

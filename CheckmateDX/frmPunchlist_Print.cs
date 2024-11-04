@@ -25,7 +25,7 @@ namespace CheckmateDX
         public frmPunchlist_Print(List<Punchlist> Punchlists)
         {
             InitializeComponent();
-            customRichEdit1.Document.DefaultCharacterProperties.FontName = "Candara";
+            customRichEdit1.Document.DefaultCharacterProperties.FontName = "Open Sans";
             customRichEdit1.Document.DefaultCharacterProperties.FontSize = 9;
 
             using(AdapterTEMPLATE_MAIN daTemplate = new AdapterTEMPLATE_MAIN())

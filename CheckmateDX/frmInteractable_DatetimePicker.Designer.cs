@@ -50,7 +50,7 @@
             // 
             this.timePicker1.CustomFormat = "HH:mm";
             this.timePicker1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.timePicker1.Font = new System.Drawing.Font("Tahoma", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timePicker1.Font = new System.Drawing.Font("Open Sans", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.timePicker1.Location = new System.Drawing.Point(92, 2);
             this.timePicker1.Name = "timePicker1";
@@ -60,7 +60,7 @@
             // 
             // labelControlTime
             // 
-            this.labelControlTime.Appearance.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControlTime.Appearance.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControlTime.Appearance.Options.UseFont = true;
             this.labelControlTime.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControlTime.Dock = System.Windows.Forms.DockStyle.Left;
@@ -73,7 +73,7 @@
             // datePicker1
             // 
             this.datePicker1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.datePicker1.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.datePicker1.Font = new System.Drawing.Font("Open Sans", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.datePicker1.Location = new System.Drawing.Point(92, 2);
             this.datePicker1.Name = "datePicker1";
             this.datePicker1.Size = new System.Drawing.Size(390, 33);
@@ -81,7 +81,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.Appearance.Options.UseFont = true;
             this.btnCancel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.ImageOptions.Image")));
             this.btnCancel.Location = new System.Drawing.Point(379, 6);
@@ -93,7 +93,7 @@
             // 
             // btnOk
             // 
-            this.btnOk.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOk.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOk.Appearance.Options.UseFont = true;
             this.btnOk.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnOk.ImageOptions.Image")));
             this.btnOk.Location = new System.Drawing.Point(273, 5);
@@ -105,7 +105,7 @@
             // 
             // labelControlDate
             // 
-            this.labelControlDate.Appearance.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControlDate.Appearance.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControlDate.Appearance.Options.UseFont = true;
             this.labelControlDate.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControlDate.Dock = System.Windows.Forms.DockStyle.Left;
@@ -154,7 +154,7 @@
             this.Controls.Add(this.panelControlButtons);
             this.Controls.Add(this.panelControlTime);
             this.Controls.Add(this.panelControlDate);
-            this.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmInteractable_DatetimePicker";
             ((System.ComponentModel.ISupportInitialize)(this.panelControlDate)).EndInit();

@@ -117,7 +117,7 @@ namespace CheckmateDX
             // 
             // btnClose
             // 
-            this.btnClose.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Appearance.Options.UseFont = true;
             this.btnClose.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.ImageOptions.Image")));
             this.btnClose.Location = new System.Drawing.Point(1764, 4);
@@ -130,7 +130,7 @@ namespace CheckmateDX
             // 
             // btnSave
             // 
-            this.btnSave.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.Appearance.Options.UseFont = true;
             this.btnSave.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.ImageOptions.Image")));
             this.btnSave.Location = new System.Drawing.Point(1606, 4);
@@ -143,7 +143,7 @@ namespace CheckmateDX
             // 
             // btnReject
             // 
-            this.btnReject.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReject.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReject.Appearance.Options.UseFont = true;
             this.btnReject.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnReject.ImageOptions.Image")));
             this.btnReject.Location = new System.Drawing.Point(1448, 4);
@@ -156,7 +156,7 @@ namespace CheckmateDX
             // 
             // btnProgress
             // 
-            this.btnProgress.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProgress.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProgress.Appearance.Options.UseFont = true;
             this.btnProgress.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnProgress.ImageOptions.Image")));
             this.btnProgress.Location = new System.Drawing.Point(1290, 4);
@@ -169,7 +169,7 @@ namespace CheckmateDX
             // 
             // btnExportToPDF
             // 
-            this.btnExportToPDF.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExportToPDF.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExportToPDF.Appearance.Options.UseFont = true;
             this.btnExportToPDF.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExportToPDF.ImageOptions.Image")));
             this.btnExportToPDF.Location = new System.Drawing.Point(1134, 1);
@@ -184,7 +184,7 @@ namespace CheckmateDX
             // 
             // btnImportPDF
             // 
-            this.btnImportPDF.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImportPDF.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnImportPDF.Appearance.Options.UseFont = true;
             this.btnImportPDF.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnImportPDF.ImageOptions.Image")));
             this.btnImportPDF.Location = new System.Drawing.Point(980, 1);
@@ -199,7 +199,7 @@ namespace CheckmateDX
             // 
             // btnReplacePDF
             // 
-            this.btnReplacePDF.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReplacePDF.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReplacePDF.Appearance.Options.UseFont = true;
             this.btnReplacePDF.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnReplacePDF.ImageOptions.Image")));
             this.btnReplacePDF.Location = new System.Drawing.Point(756, 1);

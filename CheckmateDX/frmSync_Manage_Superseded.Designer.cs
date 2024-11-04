@@ -191,7 +191,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.Appearance.Options.UseFont = true;
             this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
             this.btnDelete.Location = new System.Drawing.Point(685, 3);
@@ -203,7 +203,7 @@
             // 
             // btnHistory
             // 
-            this.btnHistory.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistory.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHistory.Appearance.Options.UseFont = true;
             this.btnHistory.Image = ((System.Drawing.Image)(resources.GetObject("btnHistory.Image")));
             this.btnHistory.Location = new System.Drawing.Point(579, 3);
@@ -371,7 +371,7 @@
             this.checkProjectSyncDelete.Enabled = false;
             this.checkProjectSyncDelete.Location = new System.Drawing.Point(2, 2);
             this.checkProjectSyncDelete.Name = "checkProjectSyncDelete";
-            this.checkProjectSyncDelete.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkProjectSyncDelete.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkProjectSyncDelete.Properties.Appearance.Options.UseFont = true;
             this.checkProjectSyncDelete.Properties.Caption = "Sync Deleted";
             this.checkProjectSyncDelete.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Style10;
@@ -385,7 +385,7 @@
             this.checkProjectSync.Enabled = false;
             this.checkProjectSync.Location = new System.Drawing.Point(117, 2);
             this.checkProjectSync.Name = "checkProjectSync";
-            this.checkProjectSync.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkProjectSync.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkProjectSync.Properties.Appearance.Options.UseFont = true;
             this.checkProjectSync.Properties.Caption = "Turn Off After Sync";
             this.checkProjectSync.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Style10;
@@ -420,7 +420,7 @@
             this.switchProject.Dock = System.Windows.Forms.DockStyle.Left;
             this.switchProject.Location = new System.Drawing.Point(2, 2);
             this.switchProject.Name = "switchProject";
-            this.switchProject.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.switchProject.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.switchProject.Properties.Appearance.Options.UseFont = true;
             this.switchProject.Properties.OffText = "Off";
             this.switchProject.Properties.OnText = "On";
@@ -431,7 +431,7 @@
             // 
             // lblToggleProject
             // 
-            this.lblToggleProject.Appearance.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblToggleProject.Appearance.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblToggleProject.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.lblToggleProject.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.lblToggleProject.Dock = System.Windows.Forms.DockStyle.Top;
@@ -479,7 +479,7 @@
             this.checkTemplateSyncDelete.Enabled = false;
             this.checkTemplateSyncDelete.Location = new System.Drawing.Point(2, 2);
             this.checkTemplateSyncDelete.Name = "checkTemplateSyncDelete";
-            this.checkTemplateSyncDelete.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkTemplateSyncDelete.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkTemplateSyncDelete.Properties.Appearance.Options.UseFont = true;
             this.checkTemplateSyncDelete.Properties.Caption = "Sync Deleted";
             this.checkTemplateSyncDelete.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Style10;
@@ -493,7 +493,7 @@
             this.checkTemplateSync.Enabled = false;
             this.checkTemplateSync.Location = new System.Drawing.Point(117, 2);
             this.checkTemplateSync.Name = "checkTemplateSync";
-            this.checkTemplateSync.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkTemplateSync.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkTemplateSync.Properties.Appearance.Options.UseFont = true;
             this.checkTemplateSync.Properties.Caption = "Turn Off After Sync";
             this.checkTemplateSync.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Style10;
@@ -528,7 +528,7 @@
             this.switchTemplate.Dock = System.Windows.Forms.DockStyle.Left;
             this.switchTemplate.Location = new System.Drawing.Point(2, 2);
             this.switchTemplate.Name = "switchTemplate";
-            this.switchTemplate.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.switchTemplate.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.switchTemplate.Properties.Appearance.Options.UseFont = true;
             this.switchTemplate.Properties.OffText = "Off";
             this.switchTemplate.Properties.OnText = "On";
@@ -539,7 +539,7 @@
             // 
             // lblToggleTemplate
             // 
-            this.lblToggleTemplate.Appearance.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblToggleTemplate.Appearance.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblToggleTemplate.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.lblToggleTemplate.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.lblToggleTemplate.Dock = System.Windows.Forms.DockStyle.Top;
@@ -587,7 +587,7 @@
             this.checkUserSyncDelete.Enabled = false;
             this.checkUserSyncDelete.Location = new System.Drawing.Point(2, 2);
             this.checkUserSyncDelete.Name = "checkUserSyncDelete";
-            this.checkUserSyncDelete.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkUserSyncDelete.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkUserSyncDelete.Properties.Appearance.Options.UseFont = true;
             this.checkUserSyncDelete.Properties.Caption = "Sync Deleted";
             this.checkUserSyncDelete.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Style10;
@@ -601,7 +601,7 @@
             this.checkUserSync.Enabled = false;
             this.checkUserSync.Location = new System.Drawing.Point(117, 2);
             this.checkUserSync.Name = "checkUserSync";
-            this.checkUserSync.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkUserSync.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkUserSync.Properties.Appearance.Options.UseFont = true;
             this.checkUserSync.Properties.Caption = "Turn Off After Sync";
             this.checkUserSync.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Style10;
@@ -636,7 +636,7 @@
             this.switchUser.Dock = System.Windows.Forms.DockStyle.Left;
             this.switchUser.Location = new System.Drawing.Point(2, 2);
             this.switchUser.Name = "switchUser";
-            this.switchUser.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.switchUser.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.switchUser.Properties.Appearance.Options.UseFont = true;
             this.switchUser.Properties.OffText = "Off";
             this.switchUser.Properties.OnText = "On";
@@ -647,7 +647,7 @@
             // 
             // lblToggleUser
             // 
-            this.lblToggleUser.Appearance.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblToggleUser.Appearance.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblToggleUser.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.lblToggleUser.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.lblToggleUser.Dock = System.Windows.Forms.DockStyle.Top;
@@ -674,7 +674,7 @@
             this.checkPunchlistSync.Enabled = false;
             this.checkPunchlistSync.Location = new System.Drawing.Point(131, 9);
             this.checkPunchlistSync.Name = "checkPunchlistSync";
-            this.checkPunchlistSync.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkPunchlistSync.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkPunchlistSync.Properties.Appearance.Options.UseFont = true;
             this.checkPunchlistSync.Properties.Caption = "Turn Off After Sync";
             this.checkPunchlistSync.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Style10;
@@ -686,7 +686,7 @@
             this.switchPunchlist.Dock = System.Windows.Forms.DockStyle.Left;
             this.switchPunchlist.Location = new System.Drawing.Point(3, 9);
             this.switchPunchlist.Name = "switchPunchlist";
-            this.switchPunchlist.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.switchPunchlist.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.switchPunchlist.Properties.Appearance.Options.UseFont = true;
             this.switchPunchlist.Properties.OffText = "Off";
             this.switchPunchlist.Properties.OnText = "On";
@@ -697,7 +697,7 @@
             // 
             // lblTogglePunchlist
             // 
-            this.lblTogglePunchlist.Appearance.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTogglePunchlist.Appearance.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTogglePunchlist.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.lblTogglePunchlist.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.lblTogglePunchlist.Dock = System.Windows.Forms.DockStyle.Top;
@@ -724,7 +724,7 @@
             this.checkITRSync.Enabled = false;
             this.checkITRSync.Location = new System.Drawing.Point(131, 9);
             this.checkITRSync.Name = "checkITRSync";
-            this.checkITRSync.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkITRSync.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkITRSync.Properties.Appearance.Options.UseFont = true;
             this.checkITRSync.Properties.Caption = "Turn Off After Sync";
             this.checkITRSync.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Style10;
@@ -737,7 +737,7 @@
             this.switchITR.Dock = System.Windows.Forms.DockStyle.Left;
             this.switchITR.Location = new System.Drawing.Point(3, 9);
             this.switchITR.Name = "switchITR";
-            this.switchITR.Properties.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.switchITR.Properties.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.switchITR.Properties.Appearance.Options.UseFont = true;
             this.switchITR.Properties.OffText = "Off";
             this.switchITR.Properties.OnText = "On";
@@ -748,7 +748,7 @@
             // 
             // lblToggleITR
             // 
-            this.lblToggleITR.Appearance.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblToggleITR.Appearance.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblToggleITR.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.lblToggleITR.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.lblToggleITR.Dock = System.Windows.Forms.DockStyle.Top;

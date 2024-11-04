@@ -77,7 +77,7 @@
             // 
             // btnPrint
             // 
-            this.btnPrint.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrint.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrint.Appearance.Options.UseFont = true;
             this.btnPrint.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnPrint.Image = ((System.Drawing.Image)(resources.GetObject("btnPrint.Image")));
@@ -271,7 +271,7 @@
             // 
             // lblSyncServer
             // 
-            this.lblSyncServer.Appearance.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSyncServer.Appearance.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSyncServer.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.lblSyncServer.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.lblSyncServer.Dock = System.Windows.Forms.DockStyle.Top;

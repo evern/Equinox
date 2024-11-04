@@ -1044,7 +1044,7 @@
             // 
             // recentlyUsedItemsComboBox1
             // 
-            this.recentlyUsedItemsComboBox1.AppearanceDropDown.Font = new System.Drawing.Font("Tahoma", 11.25F);
+            this.recentlyUsedItemsComboBox1.AppearanceDropDown.Font = new System.Drawing.Font("Open Sans", 11.25F);
             this.recentlyUsedItemsComboBox1.AppearanceDropDown.Options.UseFont = true;
             this.recentlyUsedItemsComboBox1.AutoHeight = false;
             this.recentlyUsedItemsComboBox1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {

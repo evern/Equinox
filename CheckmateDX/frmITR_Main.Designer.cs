@@ -161,7 +161,7 @@ namespace CheckmateDX
             // 
             // btnClose
             // 
-            this.btnClose.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Appearance.Options.UseFont = true;
             this.btnClose.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.ImageOptions.Image")));
             this.btnClose.Location = new System.Drawing.Point(2860, 5);
@@ -174,7 +174,7 @@ namespace CheckmateDX
             // 
             // btnDelete
             // 
-            this.btnDelete.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.Appearance.Options.UseFont = true;
             this.btnDelete.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.ImageOptions.Image")));
             this.btnDelete.Location = new System.Drawing.Point(2650, 5);
@@ -187,7 +187,7 @@ namespace CheckmateDX
             // 
             // btnReject
             // 
-            this.btnReject.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReject.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReject.Appearance.Options.UseFont = true;
             this.btnReject.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnReject.ImageOptions.Image")));
             this.btnReject.Location = new System.Drawing.Point(2440, 5);
@@ -200,7 +200,7 @@ namespace CheckmateDX
             // 
             // btnProgress
             // 
-            this.btnProgress.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProgress.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProgress.Appearance.Options.UseFont = true;
             this.btnProgress.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnProgress.ImageOptions.Image")));
             this.btnProgress.Location = new System.Drawing.Point(2230, 5);
@@ -213,7 +213,7 @@ namespace CheckmateDX
             // 
             // btnSave
             // 
-            this.btnSave.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.Appearance.Options.UseFont = true;
             this.btnSave.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.ImageOptions.Image")));
             this.btnSave.Location = new System.Drawing.Point(2020, 5);
@@ -232,7 +232,7 @@ namespace CheckmateDX
             // 
             // btnPunchlist
             // 
-            this.btnPunchlist.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPunchlist.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPunchlist.Appearance.Options.UseFont = true;
             this.btnPunchlist.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnPunchlist.ImageOptions.Image")));
             this.btnPunchlist.Location = new System.Drawing.Point(1810, 5);
@@ -245,7 +245,7 @@ namespace CheckmateDX
             // 
             // btnBrowsePunchlist
             // 
-            this.btnBrowsePunchlist.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBrowsePunchlist.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBrowsePunchlist.Appearance.Options.UseFont = true;
             this.btnBrowsePunchlist.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnBrowsePunchlist.ImageOptions.Image")));
             this.btnBrowsePunchlist.Location = new System.Drawing.Point(1520, 5);
@@ -258,7 +258,7 @@ namespace CheckmateDX
             // 
             // btnExportToPDF
             // 
-            this.btnExportToPDF.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExportToPDF.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExportToPDF.Appearance.Options.UseFont = true;
             this.btnExportToPDF.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExportToPDF.ImageOptions.Image")));
             this.btnExportToPDF.Location = new System.Drawing.Point(1310, 5);
@@ -271,7 +271,7 @@ namespace CheckmateDX
             // 
             // btnPrint
             // 
-            this.btnPrint.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrint.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrint.Appearance.Options.UseFont = true;
             this.btnPrint.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnPrint.ImageOptions.Image")));
             this.btnPrint.Location = new System.Drawing.Point(1100, 5);
@@ -284,7 +284,7 @@ namespace CheckmateDX
             // 
             // btnReplacePDF
             // 
-            this.btnReplacePDF.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReplacePDF.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReplacePDF.Appearance.Options.UseFont = true;
             this.btnReplacePDF.ImageOptions.ImageUri.Uri = "ExportToPDF;Colored";
             this.btnReplacePDF.Location = new System.Drawing.Point(882, 5);
@@ -297,7 +297,7 @@ namespace CheckmateDX
             // 
             // btnAppendPDF
             // 
-            this.btnAppendPDF.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAppendPDF.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAppendPDF.Appearance.Options.UseFont = true;
             this.btnAppendPDF.ImageOptions.ImageUri.Uri = "ExportToPDF;Colored";
             this.btnAppendPDF.Location = new System.Drawing.Point(664, 5);
@@ -310,7 +310,7 @@ namespace CheckmateDX
             // 
             // btnAttachImage
             // 
-            this.btnAttachImage.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAttachImage.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAttachImage.Appearance.Options.UseFont = true;
             this.btnAttachImage.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnAttachImage.ImageOptions.Image")));
             this.btnAttachImage.Location = new System.Drawing.Point(446, 5);
@@ -323,7 +323,7 @@ namespace CheckmateDX
             // 
             // btnAddSignature
             // 
-            this.btnAddSignature.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddSignature.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddSignature.Appearance.Options.UseFont = true;
             this.btnAddSignature.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnAddSignature.ImageOptions.Image")));
             this.btnAddSignature.Location = new System.Drawing.Point(216, 5);
@@ -337,7 +337,7 @@ namespace CheckmateDX
             // 
             // btnInsertSignature
             // 
-            this.btnInsertSignature.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsertSignature.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsertSignature.Appearance.Options.UseFont = true;
             this.btnInsertSignature.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnInsertSignature.ImageOptions.Image")));
             this.btnInsertSignature.Location = new System.Drawing.Point(2852, 98);
@@ -351,7 +351,7 @@ namespace CheckmateDX
             // 
             // btnInsertEquipment
             // 
-            this.btnInsertEquipment.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsertEquipment.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsertEquipment.Appearance.Options.UseFont = true;
             this.btnInsertEquipment.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnInsertEquipment.ImageOptions.Image")));
             this.btnInsertEquipment.Location = new System.Drawing.Point(2634, 98);
@@ -365,7 +365,7 @@ namespace CheckmateDX
             // 
             // btnInsertAcceptance
             // 
-            this.btnInsertAcceptance.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsertAcceptance.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsertAcceptance.Appearance.Options.UseFont = true;
             this.btnInsertAcceptance.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnInsertAcceptance.ImageOptions.Image")));
             this.btnInsertAcceptance.Location = new System.Drawing.Point(2416, 98);
@@ -379,7 +379,7 @@ namespace CheckmateDX
             // 
             // btnInsertEditableSup
             // 
-            this.btnInsertEditableSup.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsertEditableSup.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsertEditableSup.Appearance.Options.UseFont = true;
             this.btnInsertEditableSup.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnInsertEditableSup.ImageOptions.Image")));
             this.btnInsertEditableSup.Location = new System.Drawing.Point(2198, 98);
@@ -393,7 +393,7 @@ namespace CheckmateDX
             // 
             // btnInsertEditable
             // 
-            this.btnInsertEditable.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsertEditable.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsertEditable.Appearance.Options.UseFont = true;
             this.btnInsertEditable.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnInsertEditable.ImageOptions.Image")));
             this.btnInsertEditable.Location = new System.Drawing.Point(1980, 98);
@@ -407,7 +407,7 @@ namespace CheckmateDX
             // 
             // btnToggleField
             // 
-            this.btnToggleField.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnToggleField.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnToggleField.Appearance.Options.UseFont = true;
             this.btnToggleField.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnToggleField.ImageOptions.Image")));
             this.btnToggleField.Location = new System.Drawing.Point(1762, 98);
@@ -421,7 +421,7 @@ namespace CheckmateDX
             // 
             // btnUnprotect
             // 
-            this.btnUnprotect.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUnprotect.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUnprotect.Appearance.Options.UseFont = true;
             this.btnUnprotect.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnUnprotect.ImageOptions.Image")));
             this.btnUnprotect.Location = new System.Drawing.Point(1544, 98);
@@ -435,7 +435,7 @@ namespace CheckmateDX
             // 
             // btnCleanUpQR
             // 
-            this.btnCleanUpQR.Appearance.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCleanUpQR.Appearance.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCleanUpQR.Appearance.Options.UseFont = true;
             this.btnCleanUpQR.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCleanUpQR.ImageOptions.Image")));
             this.btnCleanUpQR.Location = new System.Drawing.Point(1326, 98);
