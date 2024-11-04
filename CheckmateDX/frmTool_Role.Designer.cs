@@ -281,7 +281,7 @@
             this.treeListRole.HorzScrollStep = 4;
             this.treeListRole.KeyFieldName = "GUID";
             this.treeListRole.Location = new System.Drawing.Point(4, 44);
-            this.treeListRole.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.treeListRole.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.treeListRole.LookAndFeel.UseDefaultLookAndFeel = false;
             this.treeListRole.Margin = new System.Windows.Forms.Padding(4);
             this.treeListRole.MinWidth = 30;
@@ -339,7 +339,7 @@
             this.labelControl4.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelControl4.Location = new System.Drawing.Point(4, 4);
-            this.labelControl4.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.labelControl4.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.labelControl4.LookAndFeel.UseDefaultLookAndFeel = false;
             this.labelControl4.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl4.Name = "labelControl4";
@@ -352,7 +352,7 @@
             this.pnlMain.Controls.Add(this.tableLayoutMain);
             this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMain.Location = new System.Drawing.Point(68, 0);
-            this.pnlMain.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.pnlMain.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.pnlMain.LookAndFeel.UseDefaultLookAndFeel = false;
             this.pnlMain.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
             this.pnlMain.Name = "pnlMain";
@@ -406,7 +406,7 @@
             this.gridDisabledPrivilege.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridDisabledPrivilege.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
             this.gridDisabledPrivilege.Location = new System.Drawing.Point(4, 466);
-            this.gridDisabledPrivilege.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridDisabledPrivilege.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridDisabledPrivilege.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridDisabledPrivilege.MainView = this.gridView3;
             this.gridDisabledPrivilege.Margin = new System.Windows.Forms.Padding(4);
@@ -510,7 +510,7 @@
             this.labelControl3.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelControl3.Location = new System.Drawing.Point(4, 426);
-            this.labelControl3.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.labelControl3.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.labelControl3.LookAndFeel.UseDefaultLookAndFeel = false;
             this.labelControl3.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl3.Name = "labelControl3";
@@ -527,7 +527,7 @@
             this.labelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelControl2.Location = new System.Drawing.Point(4, 44);
-            this.labelControl2.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.labelControl2.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.labelControl2.LookAndFeel.UseDefaultLookAndFeel = false;
             this.labelControl2.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl2.Name = "labelControl2";
@@ -542,7 +542,7 @@
             this.labelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelControl1.Location = new System.Drawing.Point(4, 4);
-            this.labelControl1.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.labelControl1.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.labelControl1.LookAndFeel.UseDefaultLookAndFeel = false;
             this.labelControl1.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl1.Name = "labelControl1";
@@ -558,7 +558,7 @@
             this.gridEnabledPrivilege.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridEnabledPrivilege.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
             this.gridEnabledPrivilege.Location = new System.Drawing.Point(4, 84);
-            this.gridEnabledPrivilege.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridEnabledPrivilege.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridEnabledPrivilege.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridEnabledPrivilege.MainView = this.gridView1;
             this.gridEnabledPrivilege.Margin = new System.Windows.Forms.Padding(4);
@@ -705,7 +705,7 @@
             this.Controls.Add(this.barDockControlRight);
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
-            this.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "frmTool_Role";

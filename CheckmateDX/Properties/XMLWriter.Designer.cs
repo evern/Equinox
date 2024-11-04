@@ -680,7 +680,7 @@
             this.ClientSize = new System.Drawing.Size(434, 561);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Name = "XMLWriter";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

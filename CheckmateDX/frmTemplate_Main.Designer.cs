@@ -885,7 +885,7 @@
             // 
             // barAndDockingController1
             // 
-            this.barAndDockingController1.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.barAndDockingController1.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.barAndDockingController1.LookAndFeel.UseDefaultLookAndFeel = false;
             this.barAndDockingController1.PropertiesBar.AllowLinkLighting = false;
             // 
@@ -995,7 +995,7 @@
             // 
             this.customRichEdit1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.customRichEdit1.Location = new System.Drawing.Point(0, 210);
-            this.customRichEdit1.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.customRichEdit1.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.customRichEdit1.LookAndFeel.UseDefaultLookAndFeel = false;
             this.customRichEdit1.MenuManager = this.ribbonControl1;
             this.customRichEdit1.Name = "customRichEdit1";

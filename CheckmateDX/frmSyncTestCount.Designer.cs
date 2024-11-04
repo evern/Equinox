@@ -119,7 +119,7 @@
             this.btnOk.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnOk.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnOk.ImageOptions.Image")));
             this.btnOk.Location = new System.Drawing.Point(2, 2);
-            this.btnOk.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnOk.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnOk.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnOk.Margin = new System.Windows.Forms.Padding(2);
             this.btnOk.Name = "btnOk";

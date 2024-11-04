@@ -512,7 +512,7 @@
             this.treeListWBSTag.ImageIndexFieldName = "wbsTagDisplayImageIndex";
             this.treeListWBSTag.KeyFieldName = "wbsTagDisplayGuid";
             this.treeListWBSTag.Location = new System.Drawing.Point(2, 2);
-            this.treeListWBSTag.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.treeListWBSTag.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.treeListWBSTag.LookAndFeel.UseDefaultLookAndFeel = false;
             this.treeListWBSTag.Margin = new System.Windows.Forms.Padding(2);
             this.treeListWBSTag.MinWidth = 30;
@@ -1600,7 +1600,7 @@
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
-            this.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "frmWBS_Selection";

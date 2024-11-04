@@ -88,7 +88,7 @@
             this.btnPrint.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnPrint.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnPrint.ImageOptions.Image")));
             this.btnPrint.Location = new System.Drawing.Point(681, 514);
-            this.btnPrint.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnPrint.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnPrint.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(100, 44);
@@ -100,7 +100,7 @@
             this.gridControlStatus.DataSource = this.syncStatusBindingSource;
             this.gridControlStatus.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControlStatus.Location = new System.Drawing.Point(3, 3);
-            this.gridControlStatus.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridControlStatus.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridControlStatus.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControlStatus.MainView = this.gridViewStatus;
             this.gridControlStatus.Name = "gridControlStatus";
@@ -320,7 +320,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Name = "frmSync_Status";
             this.Text = "Sync";

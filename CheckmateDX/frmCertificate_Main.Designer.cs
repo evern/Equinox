@@ -173,7 +173,7 @@ namespace CheckmateDX
             this.btnExportToPDF.Appearance.Options.UseFont = true;
             this.btnExportToPDF.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnExportToPDF.ImageOptions.Image")));
             this.btnExportToPDF.Location = new System.Drawing.Point(1134, 1);
-            this.btnExportToPDF.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnExportToPDF.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnExportToPDF.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnExportToPDF.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.btnExportToPDF.Name = "btnExportToPDF";
@@ -188,7 +188,7 @@ namespace CheckmateDX
             this.btnImportPDF.Appearance.Options.UseFont = true;
             this.btnImportPDF.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnImportPDF.ImageOptions.Image")));
             this.btnImportPDF.Location = new System.Drawing.Point(980, 1);
-            this.btnImportPDF.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnImportPDF.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnImportPDF.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnImportPDF.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.btnImportPDF.Name = "btnImportPDF";
@@ -203,7 +203,7 @@ namespace CheckmateDX
             this.btnReplacePDF.Appearance.Options.UseFont = true;
             this.btnReplacePDF.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnReplacePDF.ImageOptions.Image")));
             this.btnReplacePDF.Location = new System.Drawing.Point(756, 1);
-            this.btnReplacePDF.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnReplacePDF.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnReplacePDF.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnReplacePDF.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.btnReplacePDF.Name = "btnReplacePDF";

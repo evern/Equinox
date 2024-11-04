@@ -207,7 +207,7 @@
             this.gridControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControl.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
             this.gridControl.Location = new System.Drawing.Point(0, 58);
-            this.gridControl.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridControl.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridControl.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControl.MainView = this.gridView1;
             this.gridControl.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);

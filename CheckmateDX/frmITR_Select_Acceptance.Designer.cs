@@ -44,7 +44,7 @@
             this.btnAcceptable.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAcceptable.Image = ((System.Drawing.Image)(resources.GetObject("btnAcceptable.Image")));
             this.btnAcceptable.Location = new System.Drawing.Point(2, 2);
-            this.btnAcceptable.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnAcceptable.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnAcceptable.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnAcceptable.Name = "btnAcceptable";
             this.btnAcceptable.Padding = new System.Windows.Forms.Padding(3);
@@ -60,7 +60,7 @@
             this.btnNotApplicable.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnNotApplicable.Image = ((System.Drawing.Image)(resources.GetObject("btnNotApplicable.Image")));
             this.btnNotApplicable.Location = new System.Drawing.Point(2, 62);
-            this.btnNotApplicable.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnNotApplicable.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnNotApplicable.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnNotApplicable.Name = "btnNotApplicable";
             this.btnNotApplicable.Padding = new System.Windows.Forms.Padding(3);
@@ -87,7 +87,7 @@
             this.btnPunchlist.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnPunchlist.Image = ((System.Drawing.Image)(resources.GetObject("btnPunchlist.Image")));
             this.btnPunchlist.Location = new System.Drawing.Point(2, 122);
-            this.btnPunchlist.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnPunchlist.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnPunchlist.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnPunchlist.Name = "btnPunchlist";
             this.btnPunchlist.Padding = new System.Windows.Forms.Padding(3);

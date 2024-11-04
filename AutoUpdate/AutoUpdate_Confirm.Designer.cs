@@ -269,7 +269,7 @@
             this.btnCancel.Appearance.Options.UseFont = true;
             this.btnCancel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.ImageOptions.Image")));
             this.btnCancel.Location = new System.Drawing.Point(594, 5);
-            this.btnCancel.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnCancel.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnCancel.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCancel.Name = "btnCancel";
@@ -284,7 +284,7 @@
             this.btnOk.Appearance.Options.UseFont = true;
             this.btnOk.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnOk.ImageOptions.Image")));
             this.btnOk.Location = new System.Drawing.Point(436, 5);
-            this.btnOk.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnOk.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnOk.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnOk.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnOk.Name = "btnOk";

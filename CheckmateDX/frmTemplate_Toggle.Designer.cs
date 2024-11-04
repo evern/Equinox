@@ -70,7 +70,7 @@
             this.gridControlSchedule.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControlSchedule.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(41, 19, 41, 19);
             this.gridControlSchedule.Location = new System.Drawing.Point(2, 2);
-            this.gridControlSchedule.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridControlSchedule.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridControlSchedule.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControlSchedule.MainView = this.gridViewToggle;
             this.gridControlSchedule.Margin = new System.Windows.Forms.Padding(41, 19, 41, 19);

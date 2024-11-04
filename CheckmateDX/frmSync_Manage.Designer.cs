@@ -111,7 +111,7 @@
             this.gridControlClient.DataSource = this.clientBindingSource;
             this.gridControlClient.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControlClient.Location = new System.Drawing.Point(3, 3);
-            this.gridControlClient.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridControlClient.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridControlClient.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControlClient.MainView = this.gridViewClient;
             this.gridControlClient.Name = "gridControlClient";
@@ -252,7 +252,7 @@
             this.treeListOptions.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeListOptions.KeyFieldName = "OptionID";
             this.treeListOptions.Location = new System.Drawing.Point(2, 2);
-            this.treeListOptions.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.treeListOptions.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.treeListOptions.LookAndFeel.UseDefaultLookAndFeel = false;
             this.treeListOptions.Name = "treeListOptions";
             this.treeListOptions.OptionsBehavior.AllowRecursiveNodeChecking = true;
@@ -318,7 +318,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(915, 647);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Name = "frmSync_Manage";
             this.Text = "Sync Manager";

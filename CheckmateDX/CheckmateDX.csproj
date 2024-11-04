@@ -257,9 +257,6 @@
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="PrimeroSkin">
-      <HintPath>External DLLs\PrimeroSkin.dll</HintPath>
-    </Reference>
     <Reference Include="SmartThreadPool, Version=1.0.3624.31940, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>External DLLs\SmartThreadPool.dll</HintPath>

@@ -39,7 +39,7 @@
             this.btnBulkAttach.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnBulkAttach.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnBulkAttach.ImageOptions.Image")));
             this.btnBulkAttach.Location = new System.Drawing.Point(0, 0);
-            this.btnBulkAttach.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnBulkAttach.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnBulkAttach.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnBulkAttach.Margin = new System.Windows.Forms.Padding(2);
             this.btnBulkAttach.Name = "btnBulkAttach";

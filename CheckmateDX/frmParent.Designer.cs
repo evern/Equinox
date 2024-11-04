@@ -36,11 +36,11 @@
             // 
             // defaultLookAndFeel1
             // 
-            this.defaultLookAndFeel1.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.defaultLookAndFeel1.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             // 
             // defaultBarAndDockingController1
             // 
-            this.defaultBarAndDockingController1.Controller.LookAndFeel.SkinName = "Primero_Visual Studio 2013 Light";
+            this.defaultBarAndDockingController1.Controller.LookAndFeel.SkinName = "Primero_Office 2019 Dark Gray";
             this.defaultBarAndDockingController1.Controller.LookAndFeel.UseDefaultLookAndFeel = false;
             this.defaultBarAndDockingController1.Controller.PropertiesBar.DefaultGlyphSize = new System.Drawing.Size(16, 16);
             this.defaultBarAndDockingController1.Controller.PropertiesBar.DefaultLargeGlyphSize = new System.Drawing.Size(32, 32);

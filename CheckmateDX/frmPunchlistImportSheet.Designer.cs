@@ -5005,7 +5005,7 @@
             // 
             // defaultLookAndFeel1
             // 
-            this.defaultLookAndFeel1.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.defaultLookAndFeel1.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             // 
             // spreadsheetBarController1
             // 

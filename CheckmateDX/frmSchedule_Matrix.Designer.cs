@@ -113,7 +113,7 @@
             this.pnlTypeMain.Controls.Add(this.flowLayoutPanelSchedule);
             this.pnlTypeMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlTypeMain.Location = new System.Drawing.Point(4, 4);
-            this.pnlTypeMain.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.pnlTypeMain.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.pnlTypeMain.LookAndFeel.UseDefaultLookAndFeel = false;
             this.pnlTypeMain.Margin = new System.Windows.Forms.Padding(4);
             this.pnlTypeMain.Name = "pnlTypeMain";
@@ -127,7 +127,7 @@
             this.gridControlType.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControlType.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
             this.gridControlType.Location = new System.Drawing.Point(2, 77);
-            this.gridControlType.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridControlType.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridControlType.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControlType.MainView = this.gridViewType;
             this.gridControlType.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
@@ -248,7 +248,7 @@
             this.btnAddType.Appearance.Options.UseFont = true;
             this.btnAddType.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnAddType.ImageOptions.Image")));
             this.btnAddType.Location = new System.Drawing.Point(8, 8);
-            this.btnAddType.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnAddType.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnAddType.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnAddType.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddType.Name = "btnAddType";
@@ -263,7 +263,7 @@
             this.btnEditType.Appearance.Options.UseFont = true;
             this.btnEditType.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnEditType.ImageOptions.Image")));
             this.btnEditType.Location = new System.Drawing.Point(166, 8);
-            this.btnEditType.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnEditType.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnEditType.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnEditType.Margin = new System.Windows.Forms.Padding(4);
             this.btnEditType.Name = "btnEditType";
@@ -279,7 +279,7 @@
             this.btnDeleteType.Appearance.Options.UseFont = true;
             this.btnDeleteType.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDeleteType.ImageOptions.Image")));
             this.btnDeleteType.Location = new System.Drawing.Point(324, 8);
-            this.btnDeleteType.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnDeleteType.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnDeleteType.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnDeleteType.Margin = new System.Windows.Forms.Padding(4);
             this.btnDeleteType.Name = "btnDeleteType";
@@ -295,7 +295,7 @@
             this.btnReport.Appearance.Options.UseFont = true;
             this.btnReport.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnReport.ImageOptions.Image")));
             this.btnReport.Location = new System.Drawing.Point(482, 8);
-            this.btnReport.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnReport.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnReport.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnReport.Margin = new System.Windows.Forms.Padding(4);
             this.btnReport.Name = "btnReport";
@@ -312,7 +312,7 @@
             this.pnlTemplate.Controls.Add(this.panelControl1);
             this.pnlTemplate.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlTemplate.Location = new System.Drawing.Point(690, 4);
-            this.pnlTemplate.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.pnlTemplate.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.pnlTemplate.LookAndFeel.UseDefaultLookAndFeel = false;
             this.pnlTemplate.Margin = new System.Windows.Forms.Padding(4);
             this.pnlTemplate.Name = "pnlTemplate";
@@ -326,7 +326,7 @@
             this.gridControlTemplate.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControlTemplate.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
             this.gridControlTemplate.Location = new System.Drawing.Point(2, 82);
-            this.gridControlTemplate.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridControlTemplate.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridControlTemplate.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControlTemplate.MainView = this.gridViewTemplate;
             this.gridControlTemplate.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
@@ -480,7 +480,7 @@
             this.btnTrimDuplicates.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnTrimDuplicates.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnTrimDuplicates.ImageOptions.Image")));
             this.btnTrimDuplicates.Location = new System.Drawing.Point(252, 2);
-            this.btnTrimDuplicates.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnTrimDuplicates.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnTrimDuplicates.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnTrimDuplicates.Margin = new System.Windows.Forms.Padding(4);
             this.btnTrimDuplicates.Name = "btnTrimDuplicates";
@@ -497,7 +497,7 @@
             this.btnCopyFrom.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnCopyFrom.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCopyFrom.ImageOptions.Image")));
             this.btnCopyFrom.Location = new System.Drawing.Point(462, 2);
-            this.btnCopyFrom.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnCopyFrom.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnCopyFrom.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnCopyFrom.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopyFrom.Name = "btnCopyFrom";
@@ -528,7 +528,7 @@
             this.cmbProject.Properties.Appearance.Options.UseFont = true;
             this.cmbProject.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cmbProject.Properties.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.cmbProject.Properties.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.cmbProject.Properties.LookAndFeel.UseDefaultLookAndFeel = false;
             this.cmbProject.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.cmbProject.Size = new System.Drawing.Size(520, 30);
@@ -561,7 +561,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.ClientSize = new System.Drawing.Size(1372, 970);
             this.Controls.Add(this.tblLayoutMain);
-            this.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "frmSchedule_Matrix";

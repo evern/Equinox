@@ -465,7 +465,7 @@
             this.treeListTemplate.ImageIndexFieldName = "wtDisplayImageIndex";
             this.treeListTemplate.KeyFieldName = "wtDisplayGuid";
             this.treeListTemplate.Location = new System.Drawing.Point(4, 50);
-            this.treeListTemplate.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.treeListTemplate.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.treeListTemplate.LookAndFeel.UseDefaultLookAndFeel = false;
             this.treeListTemplate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.treeListTemplate.MinWidth = 30;
@@ -587,7 +587,7 @@
             this.cmbDiscipline.Properties.Appearance.Options.UseFont = true;
             this.cmbDiscipline.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cmbDiscipline.Properties.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.cmbDiscipline.Properties.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.cmbDiscipline.Properties.LookAndFeel.UseDefaultLookAndFeel = false;
             this.cmbDiscipline.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.cmbDiscipline.Size = new System.Drawing.Size(1198, 30);
@@ -600,7 +600,7 @@
             this.labelControl5.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl5.Dock = System.Windows.Forms.DockStyle.Left;
             this.labelControl5.Location = new System.Drawing.Point(2, 2);
-            this.labelControl5.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.labelControl5.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.labelControl5.LookAndFeel.UseDefaultLookAndFeel = false;
             this.labelControl5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl5.Name = "labelControl5";

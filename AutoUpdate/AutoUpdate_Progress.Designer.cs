@@ -330,7 +330,7 @@
             this.progressBarTotal.Location = new System.Drawing.Point(4, 162);
             this.progressBarTotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.progressBarTotal.Name = "progressBarTotal";
-            this.progressBarTotal.Properties.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.progressBarTotal.Properties.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.progressBarTotal.Properties.LookAndFeel.UseDefaultLookAndFeel = false;
             this.progressBarTotal.Size = new System.Drawing.Size(696, 32);
             this.progressBarTotal.TabIndex = 14;
@@ -436,7 +436,7 @@
             this.progressBarCurrent.Location = new System.Drawing.Point(4, 85);
             this.progressBarCurrent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.progressBarCurrent.Name = "progressBarCurrent";
-            this.progressBarCurrent.Properties.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.progressBarCurrent.Properties.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.progressBarCurrent.Properties.LookAndFeel.UseDefaultLookAndFeel = false;
             this.progressBarCurrent.Size = new System.Drawing.Size(696, 32);
             this.progressBarCurrent.TabIndex = 13;
@@ -458,7 +458,7 @@
             this.btnCancel.Appearance.Options.UseFont = true;
             this.btnCancel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.ImageOptions.Image")));
             this.btnCancel.Location = new System.Drawing.Point(580, 4);
-            this.btnCancel.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnCancel.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnCancel.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancel.Name = "btnCancel";

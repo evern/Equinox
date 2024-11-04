@@ -66,7 +66,7 @@
             this.progressPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.progressPanel1.ImageHorzOffset = 20;
             this.progressPanel1.Location = new System.Drawing.Point(0, 13);
-            this.progressPanel1.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.progressPanel1.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.progressPanel1.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
             this.progressPanel1.Name = "progressPanel1";
             this.progressPanel1.Size = new System.Drawing.Size(300, 42);

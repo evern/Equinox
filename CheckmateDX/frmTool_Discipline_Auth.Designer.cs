@@ -218,7 +218,7 @@
             this.gridUnauth.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridUnauth.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
             this.gridUnauth.Location = new System.Drawing.Point(4, 611);
-            this.gridUnauth.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridUnauth.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridUnauth.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridUnauth.MainView = this.gridView3;
             this.gridUnauth.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -256,7 +256,7 @@
             this.labelControl4.Appearance.Options.UseFont = true;
             this.labelControl4.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl4.Location = new System.Drawing.Point(4, 4);
-            this.labelControl4.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.labelControl4.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.labelControl4.LookAndFeel.UseDefaultLookAndFeel = false;
             this.labelControl4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl4.Name = "labelControl4";
@@ -271,7 +271,7 @@
             this.gridDiscipline.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridDiscipline.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
             this.gridDiscipline.Location = new System.Drawing.Point(4, 47);
-            this.gridDiscipline.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridDiscipline.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridDiscipline.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridDiscipline.MainView = this.gridView1;
             this.gridDiscipline.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -312,7 +312,7 @@
             this.pnlMain.Controls.Add(this.tableLayoutMain);
             this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMain.Location = new System.Drawing.Point(0, 0);
-            this.pnlMain.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.pnlMain.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.pnlMain.LookAndFeel.UseDefaultLookAndFeel = false;
             this.pnlMain.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlMain.Name = "pnlMain";
@@ -367,7 +367,7 @@
             this.labelControl3.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelControl3.Location = new System.Drawing.Point(4, 568);
-            this.labelControl3.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.labelControl3.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.labelControl3.LookAndFeel.UseDefaultLookAndFeel = false;
             this.labelControl3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl3.Name = "labelControl3";
@@ -384,7 +384,7 @@
             this.labelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelControl2.Location = new System.Drawing.Point(4, 47);
-            this.labelControl2.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.labelControl2.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.labelControl2.LookAndFeel.UseDefaultLookAndFeel = false;
             this.labelControl2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl2.Name = "labelControl2";
@@ -399,7 +399,7 @@
             this.gridAuth.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridAuth.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
             this.gridAuth.Location = new System.Drawing.Point(4, 90);
-            this.gridAuth.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridAuth.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridAuth.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridAuth.MainView = this.gridView2;
             this.gridAuth.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -551,7 +551,7 @@
             this.labelControl1.Appearance.Options.UseFont = true;
             this.labelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.labelControl1.Location = new System.Drawing.Point(4, 4);
-            this.labelControl1.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.labelControl1.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.labelControl1.LookAndFeel.UseDefaultLookAndFeel = false;
             this.labelControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl1.Name = "labelControl1";
@@ -571,7 +571,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.ClientSize = new System.Drawing.Size(2031, 1100);
             this.Controls.Add(this.pnlMain);
-            this.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
             this.Name = "frmTool_Discipline_Auth";

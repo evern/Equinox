@@ -98,7 +98,7 @@
             // 
             this.gridControlData.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControlData.Location = new System.Drawing.Point(2, 23);
-            this.gridControlData.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridControlData.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridControlData.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControlData.MainView = this.gridViewData;
             this.gridControlData.Name = "gridControlData";
@@ -157,7 +157,7 @@
             this.lblData.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.lblData.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblData.Location = new System.Drawing.Point(2, 2);
-            this.lblData.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.lblData.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.lblData.LookAndFeel.UseDefaultLookAndFeel = false;
             this.lblData.Name = "lblData";
             this.lblData.Size = new System.Drawing.Size(605, 21);
@@ -179,7 +179,7 @@
             this.gridControlTable.DataSource = this.conflictTableBindingSource;
             this.gridControlTable.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControlTable.Location = new System.Drawing.Point(2, 23);
-            this.gridControlTable.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridControlTable.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridControlTable.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControlTable.MainView = this.gridViewTable;
             this.gridControlTable.Name = "gridControlTable";
@@ -225,7 +225,7 @@
             this.lblType.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
             this.lblType.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblType.Location = new System.Drawing.Point(2, 2);
-            this.lblType.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.lblType.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.lblType.LookAndFeel.UseDefaultLookAndFeel = false;
             this.lblType.Name = "lblType";
             this.lblType.Size = new System.Drawing.Size(290, 21);
@@ -250,7 +250,7 @@
             this.btnResolve.Appearance.Options.UseFont = true;
             this.btnResolve.Image = ((System.Drawing.Image)(resources.GetObject("btnResolve.Image")));
             this.btnResolve.Location = new System.Drawing.Point(506, 3);
-            this.btnResolve.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnResolve.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnResolve.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnResolve.Name = "btnResolve";
             this.btnResolve.Size = new System.Drawing.Size(100, 41);
@@ -264,7 +264,7 @@
             this.btnExpandAll.Appearance.Options.UseFont = true;
             this.btnExpandAll.Image = ((System.Drawing.Image)(resources.GetObject("btnExpandAll.Image")));
             this.btnExpandAll.Location = new System.Drawing.Point(400, 3);
-            this.btnExpandAll.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnExpandAll.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnExpandAll.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnExpandAll.Name = "btnExpandAll";
             this.btnExpandAll.Size = new System.Drawing.Size(100, 41);
@@ -278,7 +278,7 @@
             this.btnCollapseAll.Appearance.Options.UseFont = true;
             this.btnCollapseAll.Image = ((System.Drawing.Image)(resources.GetObject("btnCollapseAll.Image")));
             this.btnCollapseAll.Location = new System.Drawing.Point(294, 3);
-            this.btnCollapseAll.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.btnCollapseAll.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.btnCollapseAll.LookAndFeel.UseDefaultLookAndFeel = false;
             this.btnCollapseAll.Name = "btnCollapseAll";
             this.btnCollapseAll.Size = new System.Drawing.Size(100, 41);
@@ -292,7 +292,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(915, 647);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Name = "frmSync_Manage_Conflict";
             this.Text = "Manage Conflict";

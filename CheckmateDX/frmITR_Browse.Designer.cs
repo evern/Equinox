@@ -625,7 +625,7 @@
             // 
             this.pnlTab.Controls.Add(this.layoutControlTabs);
             this.pnlTab.Location = new System.Drawing.Point(1069, 9);
-            this.pnlTab.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.pnlTab.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.pnlTab.LookAndFeel.UseDefaultLookAndFeel = false;
             this.pnlTab.Margin = new System.Windows.Forms.Padding(0);
             this.pnlTab.Name = "pnlTab";
@@ -669,7 +669,7 @@
             // xtraTabControlStatuses
             // 
             this.xtraTabControlStatuses.Location = new System.Drawing.Point(2, 2);
-            this.xtraTabControlStatuses.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.xtraTabControlStatuses.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.xtraTabControlStatuses.LookAndFeel.UseDefaultLookAndFeel = false;
             this.xtraTabControlStatuses.Margin = new System.Windows.Forms.Padding(2);
             this.xtraTabControlStatuses.Name = "xtraTabControlStatuses";
@@ -747,7 +747,7 @@
             this.treeListPending.ImageIndexFieldName = "wtDisplayImageIndex";
             this.treeListPending.KeyFieldName = "wtDisplayGuid";
             this.treeListPending.Location = new System.Drawing.Point(0, 0);
-            this.treeListPending.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.treeListPending.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.treeListPending.LookAndFeel.UseDefaultLookAndFeel = false;
             this.treeListPending.Margin = new System.Windows.Forms.Padding(2);
             this.treeListPending.MinWidth = 30;
@@ -909,7 +909,7 @@
             this.treeListComments.ImageIndexFieldName = "iTRCommImageIndex";
             this.treeListComments.KeyFieldName = "GUID";
             this.treeListComments.Location = new System.Drawing.Point(2, 2);
-            this.treeListComments.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.treeListComments.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.treeListComments.LookAndFeel.UseDefaultLookAndFeel = false;
             this.treeListComments.Margin = new System.Windows.Forms.Padding(2);
             this.treeListComments.MinWidth = 30;
@@ -1030,7 +1030,7 @@
             this.treeListSaved.ImageIndexFieldName = "wtDisplayImageIndex";
             this.treeListSaved.KeyFieldName = "wtDisplayGuid";
             this.treeListSaved.Location = new System.Drawing.Point(0, 0);
-            this.treeListSaved.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.treeListSaved.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.treeListSaved.LookAndFeel.UseDefaultLookAndFeel = false;
             this.treeListSaved.Margin = new System.Windows.Forms.Padding(2);
             this.treeListSaved.MinWidth = 30;
@@ -1181,7 +1181,7 @@
             this.treeListInspected.ImageIndexFieldName = "wtDisplayImageIndex";
             this.treeListInspected.KeyFieldName = "wtDisplayGuid";
             this.treeListInspected.Location = new System.Drawing.Point(0, 0);
-            this.treeListInspected.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.treeListInspected.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.treeListInspected.LookAndFeel.UseDefaultLookAndFeel = false;
             this.treeListInspected.Margin = new System.Windows.Forms.Padding(2);
             this.treeListInspected.MinWidth = 30;
@@ -1388,7 +1388,7 @@
             this.treeListApproved.ImageIndexFieldName = "wtDisplayImageIndex";
             this.treeListApproved.KeyFieldName = "wtDisplayGuid";
             this.treeListApproved.Location = new System.Drawing.Point(0, 0);
-            this.treeListApproved.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.treeListApproved.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.treeListApproved.LookAndFeel.UseDefaultLookAndFeel = false;
             this.treeListApproved.Margin = new System.Windows.Forms.Padding(2);
             this.treeListApproved.MinWidth = 30;
@@ -1595,7 +1595,7 @@
             this.treeListCompleted.ImageIndexFieldName = "wtDisplayImageIndex";
             this.treeListCompleted.KeyFieldName = "wtDisplayGuid";
             this.treeListCompleted.Location = new System.Drawing.Point(0, 0);
-            this.treeListCompleted.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.treeListCompleted.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.treeListCompleted.LookAndFeel.UseDefaultLookAndFeel = false;
             this.treeListCompleted.Margin = new System.Windows.Forms.Padding(2);
             this.treeListCompleted.MinWidth = 30;
@@ -1802,7 +1802,7 @@
             this.treeListClosed.ImageIndexFieldName = "wtDisplayImageIndex";
             this.treeListClosed.KeyFieldName = "wtDisplayGuid";
             this.treeListClosed.Location = new System.Drawing.Point(0, 0);
-            this.treeListClosed.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.treeListClosed.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.treeListClosed.LookAndFeel.UseDefaultLookAndFeel = false;
             this.treeListClosed.Margin = new System.Windows.Forms.Padding(2);
             this.treeListClosed.MinWidth = 30;
@@ -2208,7 +2208,7 @@
             // 
             this.pnlITR.Controls.Add(this.layoutControlSearchMain);
             this.pnlITR.Location = new System.Drawing.Point(9, 9);
-            this.pnlITR.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.pnlITR.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.pnlITR.LookAndFeel.UseDefaultLookAndFeel = false;
             this.pnlITR.Margin = new System.Windows.Forms.Padding(2);
             this.pnlITR.Name = "pnlITR";
@@ -2632,7 +2632,7 @@
             this.treeListWBSTag.ImageIndexFieldName = "wbsTagDisplayImageIndex";
             this.treeListWBSTag.KeyFieldName = "wbsTagDisplayGuid";
             this.treeListWBSTag.Location = new System.Drawing.Point(2, 2);
-            this.treeListWBSTag.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.treeListWBSTag.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.treeListWBSTag.LookAndFeel.UseDefaultLookAndFeel = false;
             this.treeListWBSTag.Margin = new System.Windows.Forms.Padding(2);
             this.treeListWBSTag.MinWidth = 30;
@@ -2950,7 +2950,7 @@
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
-            this.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "frmITR_Browse";

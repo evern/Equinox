@@ -19,17 +19,13 @@ namespace CheckmateDX
         [STAThread]
         static void Main()
         {
-            Assembly asm = typeof(DevExpress.UserSkins.PrimeroSkin).Assembly;
-            DevExpress.Skins.SkinManager.Default.RegisterAssembly(asm);
-            DevExpress.Utils.AppearanceObject.DefaultFont = new System.Drawing.Font("Candara", 10f);
-            //DevExpress.XtraEditors.WindowsFormsSettings.TouchUIMode = DevExpress.LookAndFeel.TouchUIMode.True;
-            //DevExpress.XtraEditors.WindowsFormsSettings.TouchScaleFactor = 1.0f;\
+            DevExpress.Utils.AppearanceObject.DefaultFont = new System.Drawing.Font("Tahoma", 10f);
             if (Environment.OSVersion.Version.Major >= 6) SetProcessDPIAware();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            AutoUpdate.AutoUpdater au = new AutoUpdate.AutoUpdater();
-            au.Update();
+            //AutoUpdate.AutoUpdater au = new AutoUpdate.AutoUpdater();
+            //au.Update();
             CreateProjectSpecificXML();
             Application.Run(new frmLogin());
         }
@@ -100,15 +96,6 @@ namespace CheckmateDX
             databaseElement.Attribute("Database").Value = Common.Encrypt(dbName, true);
             databaseElement.Attribute("Username").Value = Common.Encrypt(username, true);
             databaseElement.Attribute("Password").Value = Common.Encrypt(password, true);
-        }
-    }
-
-
-        public class SkinRegistration : Component
-    {
-        public SkinRegistration()
-        {
-            DevExpress.Skins.SkinManager.Default.RegisterAssembly(typeof(DevExpress.UserSkins.PrimeroSkin).Assembly);
         }
     }
 }

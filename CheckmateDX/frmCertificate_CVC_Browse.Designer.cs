@@ -213,7 +213,7 @@ namespace CheckmateDX
             this.gridControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControl.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
             this.gridControl.Location = new System.Drawing.Point(0, 58);
-            this.gridControl.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridControl.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridControl.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControl.MainView = this.gridView1;
             this.gridControl.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
@@ -573,7 +573,7 @@ namespace CheckmateDX
             this.treeListComments.ImageIndexFieldName = "CertificateCommImageIndex";
             this.treeListComments.KeyFieldName = "GUID";
             this.treeListComments.Location = new System.Drawing.Point(2, 2);
-            this.treeListComments.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.treeListComments.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.treeListComments.LookAndFeel.UseDefaultLookAndFeel = false;
             this.treeListComments.Margin = new System.Windows.Forms.Padding(2);
             this.treeListComments.MinWidth = 30;

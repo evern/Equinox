@@ -705,7 +705,7 @@
             this.treeListWBSTag.ImageIndexFieldName = "wbsTagDisplayImageIndex";
             this.treeListWBSTag.KeyFieldName = "wbsTagDisplayGuid";
             this.treeListWBSTag.Location = new System.Drawing.Point(2, 2);
-            this.treeListWBSTag.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.treeListWBSTag.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.treeListWBSTag.LookAndFeel.UseDefaultLookAndFeel = false;
             this.treeListWBSTag.Name = "treeListWBSTag";
             this.treeListWBSTag.OptionsFilter.FilterMode = DevExpress.XtraTreeList.FilterMode.Matches;
@@ -923,7 +923,7 @@
             this.gridControlExcelExport.DataSource = this.punchlistBindingAll;
             this.gridControlExcelExport.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(41, 19, 41, 19);
             this.gridControlExcelExport.Location = new System.Drawing.Point(56, 93);
-            this.gridControlExcelExport.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridControlExcelExport.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridControlExcelExport.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControlExcelExport.MainView = this.gridViewExport;
             this.gridControlExcelExport.Margin = new System.Windows.Forms.Padding(41, 19, 41, 19);
@@ -1224,7 +1224,7 @@
             this.treeListComments.ImageIndexFieldName = "punchlistCommImageIndex";
             this.treeListComments.KeyFieldName = "GUID";
             this.treeListComments.Location = new System.Drawing.Point(3, 3);
-            this.treeListComments.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.treeListComments.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.treeListComments.LookAndFeel.UseDefaultLookAndFeel = false;
             this.treeListComments.Name = "treeListComments";
             this.treeListComments.OptionsSelection.EnableAppearanceFocusedCell = false;
@@ -1293,7 +1293,7 @@
             this.gridControlNew.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControlNew.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(41, 19, 41, 19);
             this.gridControlNew.Location = new System.Drawing.Point(0, 0);
-            this.gridControlNew.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridControlNew.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridControlNew.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControlNew.MainView = this.gridViewNew;
             this.gridControlNew.Margin = new System.Windows.Forms.Padding(41, 19, 41, 19);
@@ -1497,7 +1497,7 @@
             // xtraTabControlStatuses
             // 
             this.xtraTabControlStatuses.Location = new System.Drawing.Point(2, 2);
-            this.xtraTabControlStatuses.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.xtraTabControlStatuses.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.xtraTabControlStatuses.LookAndFeel.UseDefaultLookAndFeel = false;
             this.xtraTabControlStatuses.Name = "xtraTabControlStatuses";
             this.xtraTabControlStatuses.SelectedTabPage = this.xtraTabPageNew;
@@ -1534,7 +1534,7 @@
             this.gridControlCategorised.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControlCategorised.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(41, 19, 41, 19);
             this.gridControlCategorised.Location = new System.Drawing.Point(0, 0);
-            this.gridControlCategorised.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridControlCategorised.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridControlCategorised.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControlCategorised.MainView = this.gridViewCategorised;
             this.gridControlCategorised.Margin = new System.Windows.Forms.Padding(41, 19, 41, 19);
@@ -1745,7 +1745,7 @@
             this.gridControlInspected.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControlInspected.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(41, 19, 41, 19);
             this.gridControlInspected.Location = new System.Drawing.Point(0, 0);
-            this.gridControlInspected.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridControlInspected.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridControlInspected.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControlInspected.MainView = this.gridViewInspected;
             this.gridControlInspected.Margin = new System.Windows.Forms.Padding(41, 19, 41, 19);
@@ -1956,7 +1956,7 @@
             this.gridControlCompleted.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControlCompleted.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(41, 19, 41, 19);
             this.gridControlCompleted.Location = new System.Drawing.Point(0, 0);
-            this.gridControlCompleted.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridControlCompleted.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridControlCompleted.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControlCompleted.MainView = this.gridViewCompleted;
             this.gridControlCompleted.Margin = new System.Windows.Forms.Padding(41, 19, 41, 19);
@@ -2167,7 +2167,7 @@
             this.gridControlClosed.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControlClosed.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(41, 19, 41, 19);
             this.gridControlClosed.Location = new System.Drawing.Point(0, 0);
-            this.gridControlClosed.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.gridControlClosed.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.gridControlClosed.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControlClosed.MainView = this.gridViewClosed;
             this.gridControlClosed.Margin = new System.Windows.Forms.Padding(41, 19, 41, 19);
@@ -2688,7 +2688,7 @@
             this.Controls.Add(this.barDockControlRight);
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
-            this.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Name = "frmPunchlist_Browse";
             this.Text = "Punchlist";

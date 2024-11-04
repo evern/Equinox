@@ -47,7 +47,7 @@
             this.progressPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.progressPanel1.ImageHorzOffset = 20;
             this.progressPanel1.Location = new System.Drawing.Point(0, 3);
-            this.progressPanel1.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.progressPanel1.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.progressPanel1.LookAndFeel.UseDefaultLookAndFeel = false;
             this.progressPanel1.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
             this.progressPanel1.Name = "progressPanel1";
@@ -78,7 +78,7 @@
             this.progressBarControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.progressBarControl1.Location = new System.Drawing.Point(3, 73);
             this.progressBarControl1.Name = "progressBarControl1";
-            this.progressBarControl1.Properties.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.progressBarControl1.Properties.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.progressBarControl1.Properties.LookAndFeel.UseDefaultLookAndFeel = false;
             this.progressBarControl1.Size = new System.Drawing.Size(394, 14);
             this.progressBarControl1.TabIndex = 1;

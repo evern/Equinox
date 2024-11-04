@@ -786,7 +786,7 @@
             // 
             // barAndDockingController1
             // 
-            this.barAndDockingController1.LookAndFeel.SkinName = "Visual Studio 2013 Light";
+            this.barAndDockingController1.LookAndFeel.SkinName = "Office 2019 Dark Gray";
             this.barAndDockingController1.LookAndFeel.UseDefaultLookAndFeel = false;
             this.barAndDockingController1.PropertiesBar.AllowLinkLighting = false;
             this.barAndDockingController1.PropertiesBar.DefaultGlyphSize = new System.Drawing.Size(16, 16);
