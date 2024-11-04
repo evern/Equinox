@@ -11,7 +11,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CheckmateDX</RootNamespace>
-    <AssemblyName>CheckmateDX</AssemblyName>
+    <AssemblyName>Equinox</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -76,8 +76,9 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Set-Program-Default-icon.ico</ApplicationIcon>
+    <ApplicationIcon>Equinox Logo.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup />
   <PropertyGroup />
   <PropertyGroup />
   <ItemGroup>
@@ -1354,6 +1355,10 @@
     <Content Include="AutoUpdateServer.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Equinox Logo.ico" />
+    <None Include="Resources\Logo.bmp" />
+    <None Include="Resources\Icon1.ico" />
+    <None Include="Resources\Equinox Logo.ico" />
     <Content Include="SQL_Queries\ALL.sql" />
     <Content Include="SQL_Queries\CHECKMATE_DB.sql" />
     <Content Include="SQL_Queries\ITR_MAIN_FK.sql" />
@@ -1380,7 +1385,6 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <Content Include="Set-Program-Default-icon.ico" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\SyncWebService\" />

@@ -720,6 +720,7 @@
             this.barProject.Id = 17;
             this.barProject.Name = "barProject";
             this.barProject.Size = new System.Drawing.Size(350, 0);
+            this.barProject.Width = 350;
             // 
             // barLabelRole
             // 
@@ -744,35 +745,35 @@
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Margin = new System.Windows.Forms.Padding(82, 38, 82, 38);
-            this.barDockControlTop.Size = new System.Drawing.Size(2706, 79);
+            this.barDockControlTop.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
+            this.barDockControlTop.Size = new System.Drawing.Size(2030, 59);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 1416);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 1069);
             this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(82, 38, 82, 38);
-            this.barDockControlBottom.Size = new System.Drawing.Size(2706, 50);
+            this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
+            this.barDockControlBottom.Size = new System.Drawing.Size(2030, 31);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 79);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 59);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(82, 38, 82, 38);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 1337);
+            this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 1010);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(2706, 79);
+            this.barDockControlRight.Location = new System.Drawing.Point(2030, 59);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Margin = new System.Windows.Forms.Padding(82, 38, 82, 38);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 1337);
+            this.barDockControlRight.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 1010);
             // 
             // barStaticItem2
             // 
@@ -925,12 +926,12 @@
             // 
             this.tileNavPane1.DefaultCategory.Tile.DropDownOptions.BeakColor = System.Drawing.Color.Empty;
             this.tileNavPane1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tileNavPane1.Location = new System.Drawing.Point(0, 79);
+            this.tileNavPane1.Location = new System.Drawing.Point(0, 59);
             this.tileNavPane1.MainButtonBehavior = DevExpress.XtraBars.Navigation.TileNavPaneMainButtonBehavior.ShowDefaultCategoryItems;
-            this.tileNavPane1.Margin = new System.Windows.Forms.Padding(6);
+            this.tileNavPane1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tileNavPane1.Name = "tileNavPane1";
             this.tileNavPane1.OptionsPrimaryDropDown.ShowItemShadow = DevExpress.Utils.DefaultBoolean.True;
-            this.tileNavPane1.Size = new System.Drawing.Size(2706, 36);
+            this.tileNavPane1.Size = new System.Drawing.Size(2030, 27);
             this.tileNavPane1.TabIndex = 26;
             this.tileNavPane1.Text = "tileNavPane1";
             this.tileNavPane1.Visible = false;
@@ -1103,16 +1104,17 @@
             // mdiMain
             // 
             this.Appearance.Options.UseFont = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(192F, 192F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(2706, 1466);
+            this.ClientSize = new System.Drawing.Size(2030, 1100);
             this.Controls.Add(this.tileNavPane1);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
+            this.IconOptions.Icon = ((System.Drawing.Icon)(resources.GetObject("mdiMain.IconOptions.Icon")));
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(82, 38, 82, 38);
+            this.Margin = new System.Windows.Forms.Padding(62, 28, 62, 28);
             this.Name = "mdiMain";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
