@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{29955A8D-507B-4CE7-A6F2-C9BA3B6A3FC3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectDatabase</RootNamespace>
+    <AssemblyName>ProjectDatabase</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adapter\AdapterCERTIFICATE_DATA.cs" />
+    <Compile Include="Adapter\AdapterCERTIFICATE_STATUS_ISSUE.cs" />
+    <Compile Include="Adapter\AdapterCERTIFICATE_STATUS.cs" />
+    <Compile Include="Adapter\AdapterCERTIFICATE_MAIN.cs" />
+    <Compile Include="Adapter\AdapterPUNCHLIST_MAIN_PICTURE.cs" />
+    <Compile Include="Adapter\AdapterREPORT.cs" />
+    <Compile Include="Adapter\AdapterGENERAL_EQUIPMENT.cs" />
+    <Compile Include="Adapter\AdapterITR_MAIN.cs" />
+    <Compile Include="Adapter\AdapterITR_STATUS.cs" />
+    <Compile Include="Adapter\AdapterITR_STATUS_ISSUE.cs" />
+    <Compile Include="Adapter\AdapterMATRIX_ASSIGNMENT.cs" />
+    <Compile Include="Adapter\AdapterMATRIX_TYPE.cs" />
+    <Compile Include="Adapter\AdapterPREFILL_MAIN.cs" />
+    <Compile Include="Adapter\AdapterPREFILL_REGISTER.cs" />
+    <Compile Include="Adapter\AdapterPROJECT.cs" />
+    <Compile Include="Adapter\AdapterPUNCHLIST_MAIN.cs" />
+    <Compile Include="Adapter\AdapterPUNCHLIST_STATUS.cs" />
+    <Compile Include="Adapter\AdapterPUNCHLIST_STATUS_ISSUE.cs" />
+    <Compile Include="Adapter\AdapterROLE_MAIN.cs" />
+    <Compile Include="Adapter\AdapterSCHEDULE.cs" />
+    <Compile Include="Adapter\AdapterSYNC_CONFLICT.cs" />
+    <Compile Include="Adapter\AdapterSYNC_HISTORY.cs" />
+    <Compile Include="Adapter\AdapterSYNC_PAIR.cs" />
+    <Compile Include="Adapter\AdapterSYNC_RECORD.cs" />
+    <Compile Include="Adapter\AdapterSYNC_TABLE.cs" />
+    <Compile Include="Adapter\AdapterTAG.cs" />
+    <Compile Include="Adapter\AdapterTEMPLATE_MAIN.cs" />
+    <Compile Include="Adapter\AdapterTEMPLATE_REGISTER.cs" />
+    <Compile Include="Adapter\AdapterTEMPLATE_TOGGLE.cs" />
+    <Compile Include="Adapter\AdapterTOMBSTONE.cs" />
+    <Compile Include="Adapter\AdapterUSER_MAIN.cs" />
+    <Compile Include="Adapter\AdapterWBS.cs" />
+    <Compile Include="Adapter\AdapterWORKFLOW_MAIN.cs" />
+    <Compile Include="Dataset\dsCERTIFICATE_DATA.cs">
+      <DependentUpon>dsCERTIFICATE_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsCERTIFICATE_DATA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCERTIFICATE_DATA.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsCERTIFICATE_MAIN.cs">
+      <DependentUpon>dsCERTIFICATE_MAIN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsCERTIFICATE_MAIN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCERTIFICATE_MAIN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsCERTIFICATE_STATUS.cs">
+      <DependentUpon>dsCERTIFICATE_STATUS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsCERTIFICATE_STATUS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCERTIFICATE_STATUS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsCERTIFICATE_STATUS_ISSUE.cs">
+      <DependentUpon>dsCERTIFICATE_STATUS_ISSUE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsCERTIFICATE_STATUS_ISSUE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCERTIFICATE_STATUS_ISSUE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsELECTRICAL_EQUIPMENT.cs">
+      <DependentUpon>dsELECTRICAL_EQUIPMENT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsELECTRICAL_EQUIPMENT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsELECTRICAL_EQUIPMENT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsGENERAL_EQUIPMENT.cs">
+      <DependentUpon>dsGENERAL_EQUIPMENT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsGENERAL_EQUIPMENT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsGENERAL_EQUIPMENT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsITR_MAIN.cs">
+      <DependentUpon>dsITR_MAIN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsITR_MAIN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsITR_MAIN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsITR_STATUS.cs">
+      <DependentUpon>dsITR_STATUS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsITR_STATUS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsITR_STATUS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsITR_STATUS_ISSUE.cs">
+      <DependentUpon>dsITR_STATUS_ISSUE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsITR_STATUS_ISSUE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsITR_STATUS_ISSUE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsMATRIX_ASSIGNMENT.cs">
+      <DependentUpon>dsMATRIX_ASSIGNMENT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsMATRIX_ASSIGNMENT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMATRIX_ASSIGNMENT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsMATRIX_TYPE.cs">
+      <DependentUpon>dsMATRIX_TYPE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsMATRIX_TYPE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMATRIX_TYPE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsPREFILL_MAIN.cs">
+      <DependentUpon>dsPREFILL_MAIN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsPREFILL_MAIN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPREFILL_MAIN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsPREFILL_REGISTER.cs">
+      <DependentUpon>dsPREFILL_REGISTER.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsPREFILL_REGISTER.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPREFILL_REGISTER.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsPROJECT.cs">
+      <DependentUpon>dsPROJECT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsPROJECT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPROJECT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsPUNCHLIST_MAIN.cs">
+      <DependentUpon>dsPUNCHLIST_MAIN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsPUNCHLIST_MAIN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPUNCHLIST_MAIN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsPUNCHLIST_MAIN_PICTURE.cs">
+      <DependentUpon>dsPUNCHLIST_MAIN_PICTURE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsPUNCHLIST_MAIN_PICTURE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPUNCHLIST_MAIN_PICTURE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsPUNCHLIST_STATUS.cs">
+      <DependentUpon>dsPUNCHLIST_STATUS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsPUNCHLIST_STATUS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPUNCHLIST_STATUS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsPUNCHLIST_STATUS_ISSUE.cs">
+      <DependentUpon>dsPUNCHLIST_STATUS_ISSUE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsPUNCHLIST_STATUS_ISSUE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPUNCHLIST_STATUS_ISSUE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsREPORT.cs">
+      <DependentUpon>dsREPORT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsREPORT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsREPORT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsROLE_MAIN.cs">
+      <DependentUpon>dsROLE_MAIN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsROLE_MAIN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsROLE_MAIN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsSCHEDULE.cs">
+      <DependentUpon>dsSCHEDULE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsSCHEDULE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSCHEDULE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsSYNC_CONFLICT.cs">
+      <DependentUpon>dsSYNC_CONFLICT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsSYNC_CONFLICT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSYNC_CONFLICT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsSYNC_HISTORY.cs">
+      <DependentUpon>dsSYNC_HISTORY.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsSYNC_HISTORY.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSYNC_HISTORY.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsSYNC_PAIR.cs">
+      <DependentUpon>dsSYNC_PAIR.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsSYNC_PAIR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSYNC_PAIR.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsSYNC_RECORD.cs">
+      <DependentUpon>dsSYNC_RECORD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsSYNC_RECORD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSYNC_RECORD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsSYNC_TABLE.cs">
+      <DependentUpon>dsSYNC_TABLE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsSYNC_TABLE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSYNC_TABLE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsTAG.cs">
+      <DependentUpon>dsTAG.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsTAG.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTAG.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsTEMPLATE_MAIN.cs">
+      <DependentUpon>dsTEMPLATE_MAIN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsTEMPLATE_MAIN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTEMPLATE_MAIN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsTEMPLATE_REGISTER.cs">
+      <DependentUpon>dsTEMPLATE_REGISTER.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsTEMPLATE_REGISTER.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTEMPLATE_REGISTER.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsTEMPLATE_TOGGLE.cs">
+      <DependentUpon>dsTEMPLATE_TOGGLE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsTEMPLATE_TOGGLE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTEMPLATE_TOGGLE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsTOMBSTONE.cs">
+      <DependentUpon>dsTOMBSTONE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsTOMBSTONE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTOMBSTONE.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsUSER_MAIN.cs">
+      <DependentUpon>dsUSER_MAIN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsUSER_MAIN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsUSER_MAIN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsWBS.cs">
+      <DependentUpon>dsWBS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsWBS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWBS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsWORKFLOW_MAIN.cs">
+      <DependentUpon>dsWORKFLOW_MAIN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dsWORKFLOW_MAIN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWORKFLOW_MAIN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SQLBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Dataset\dsCERTIFICATE_DATA.xsc">
+      <DependentUpon>dsCERTIFICATE_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsCERTIFICATE_DATA.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCERTIFICATE_DATA.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsCERTIFICATE_DATA.xss">
+      <DependentUpon>dsCERTIFICATE_DATA.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsCERTIFICATE_MAIN.xsc">
+      <DependentUpon>dsCERTIFICATE_MAIN.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsCERTIFICATE_MAIN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCERTIFICATE_MAIN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsCERTIFICATE_MAIN.xss">
+      <DependentUpon>dsCERTIFICATE_MAIN.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsCERTIFICATE_STATUS.xsc">
+      <DependentUpon>dsCERTIFICATE_STATUS.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsCERTIFICATE_STATUS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCERTIFICATE_STATUS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsCERTIFICATE_STATUS.xss">
+      <DependentUpon>dsCERTIFICATE_STATUS.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsCERTIFICATE_STATUS_ISSUE.xsc">
+      <DependentUpon>dsCERTIFICATE_STATUS_ISSUE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsCERTIFICATE_STATUS_ISSUE.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCERTIFICATE_STATUS_ISSUE.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsCERTIFICATE_STATUS_ISSUE.xss">
+      <DependentUpon>dsCERTIFICATE_STATUS_ISSUE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsELECTRICAL_EQUIPMENT.xsc">
+      <DependentUpon>dsELECTRICAL_EQUIPMENT.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsELECTRICAL_EQUIPMENT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsELECTRICAL_EQUIPMENT.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsELECTRICAL_EQUIPMENT.xss">
+      <DependentUpon>dsELECTRICAL_EQUIPMENT.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsGENERAL_EQUIPMENT.xsc">
+      <DependentUpon>dsGENERAL_EQUIPMENT.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsGENERAL_EQUIPMENT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsGENERAL_EQUIPMENT.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsGENERAL_EQUIPMENT.xss">
+      <DependentUpon>dsGENERAL_EQUIPMENT.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsITR_MAIN.xsc">
+      <DependentUpon>dsITR_MAIN.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsITR_MAIN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsITR_MAIN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsITR_MAIN.xss">
+      <DependentUpon>dsITR_MAIN.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsITR_STATUS.xsc">
+      <DependentUpon>dsITR_STATUS.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsITR_STATUS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsITR_STATUS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsITR_STATUS.xss">
+      <DependentUpon>dsITR_STATUS.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsITR_STATUS_ISSUE.xsc">
+      <DependentUpon>dsITR_STATUS_ISSUE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsITR_STATUS_ISSUE.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsITR_STATUS_ISSUE.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsITR_STATUS_ISSUE.xss">
+      <DependentUpon>dsITR_STATUS_ISSUE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsMATRIX_ASSIGNMENT.xsc">
+      <DependentUpon>dsMATRIX_ASSIGNMENT.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsMATRIX_ASSIGNMENT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMATRIX_ASSIGNMENT.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsMATRIX_ASSIGNMENT.xss">
+      <DependentUpon>dsMATRIX_ASSIGNMENT.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsMATRIX_TYPE.xsc">
+      <DependentUpon>dsMATRIX_TYPE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsMATRIX_TYPE.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMATRIX_TYPE.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsMATRIX_TYPE.xss">
+      <DependentUpon>dsMATRIX_TYPE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsPREFILL_MAIN.xsc">
+      <DependentUpon>dsPREFILL_MAIN.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsPREFILL_MAIN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPREFILL_MAIN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsPREFILL_MAIN.xss">
+      <DependentUpon>dsPREFILL_MAIN.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsPREFILL_REGISTER.xsc">
+      <DependentUpon>dsPREFILL_REGISTER.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsPREFILL_REGISTER.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPREFILL_REGISTER.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsPREFILL_REGISTER.xss">
+      <DependentUpon>dsPREFILL_REGISTER.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsPROJECT.xsc">
+      <DependentUpon>dsPROJECT.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsPROJECT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPROJECT.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsPROJECT.xss">
+      <DependentUpon>dsPROJECT.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsPUNCHLIST_MAIN.xsc">
+      <DependentUpon>dsPUNCHLIST_MAIN.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsPUNCHLIST_MAIN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPUNCHLIST_MAIN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsPUNCHLIST_MAIN.xss">
+      <DependentUpon>dsPUNCHLIST_MAIN.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsPUNCHLIST_MAIN_PICTURE.xsc">
+      <DependentUpon>dsPUNCHLIST_MAIN_PICTURE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsPUNCHLIST_MAIN_PICTURE.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPUNCHLIST_MAIN_PICTURE.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsPUNCHLIST_MAIN_PICTURE.xss">
+      <DependentUpon>dsPUNCHLIST_MAIN_PICTURE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsPUNCHLIST_STATUS.xsc">
+      <DependentUpon>dsPUNCHLIST_STATUS.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsPUNCHLIST_STATUS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPUNCHLIST_STATUS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsPUNCHLIST_STATUS.xss">
+      <DependentUpon>dsPUNCHLIST_STATUS.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsPUNCHLIST_STATUS_ISSUE.xsc">
+      <DependentUpon>dsPUNCHLIST_STATUS_ISSUE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsPUNCHLIST_STATUS_ISSUE.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPUNCHLIST_STATUS_ISSUE.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsPUNCHLIST_STATUS_ISSUE.xss">
+      <DependentUpon>dsPUNCHLIST_STATUS_ISSUE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsREPORT.xsc">
+      <DependentUpon>dsREPORT.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsREPORT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsREPORT.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsREPORT.xss">
+      <DependentUpon>dsREPORT.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsROLE_MAIN.xsc">
+      <DependentUpon>dsROLE_MAIN.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsROLE_MAIN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsROLE_MAIN3.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsROLE_MAIN.xss">
+      <DependentUpon>dsROLE_MAIN.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsSCHEDULE.xsc">
+      <DependentUpon>dsSCHEDULE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsSCHEDULE.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSCHEDULE.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsSCHEDULE.xss">
+      <DependentUpon>dsSCHEDULE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsSYNC_CONFLICT.xsc">
+      <DependentUpon>dsSYNC_CONFLICT.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsSYNC_CONFLICT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSYNC_CONFLICT.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsSYNC_CONFLICT.xss">
+      <DependentUpon>dsSYNC_CONFLICT.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsSYNC_HISTORY.xsc">
+      <DependentUpon>dsSYNC_HISTORY.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsSYNC_HISTORY.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSYNC_HISTORY.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsSYNC_HISTORY.xss">
+      <DependentUpon>dsSYNC_HISTORY.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsSYNC_PAIR.xsc">
+      <DependentUpon>dsSYNC_PAIR.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsSYNC_PAIR.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSYNC_PAIR.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsSYNC_PAIR.xss">
+      <DependentUpon>dsSYNC_PAIR.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsSYNC_RECORD.xsc">
+      <DependentUpon>dsSYNC_RECORD.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsSYNC_RECORD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSYNC_RECORD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsSYNC_RECORD.xss">
+      <DependentUpon>dsSYNC_RECORD.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsSYNC_TABLE.xsc">
+      <DependentUpon>dsSYNC_TABLE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsSYNC_TABLE.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSYNC_TABLE.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsSYNC_TABLE.xss">
+      <DependentUpon>dsSYNC_TABLE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsTAG.xsc">
+      <DependentUpon>dsTAG.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsTAG.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTAG.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsTAG.xss">
+      <DependentUpon>dsTAG.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsTEMPLATE_MAIN.xsc">
+      <DependentUpon>dsTEMPLATE_MAIN.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsTEMPLATE_MAIN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTEMPLATE_MAIN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsTEMPLATE_MAIN.xss">
+      <DependentUpon>dsTEMPLATE_MAIN.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsTEMPLATE_REGISTER.xsc">
+      <DependentUpon>dsTEMPLATE_REGISTER.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsTEMPLATE_REGISTER.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTEMPLATE_REGISTER.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsTEMPLATE_REGISTER.xss">
+      <DependentUpon>dsTEMPLATE_REGISTER.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsTEMPLATE_TOGGLE.xsc">
+      <DependentUpon>dsTEMPLATE_TOGGLE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsTEMPLATE_TOGGLE.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTEMPLATE_TOGGLE.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsTEMPLATE_TOGGLE.xss">
+      <DependentUpon>dsTEMPLATE_TOGGLE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsTOMBSTONE.xsc">
+      <DependentUpon>dsTOMBSTONE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsTOMBSTONE.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTOMBSTONE.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsTOMBSTONE.xss">
+      <DependentUpon>dsTOMBSTONE.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsUSER_MAIN.xsc">
+      <DependentUpon>dsUSER_MAIN.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsUSER_MAIN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsUSER_MAIN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsUSER_MAIN.xss">
+      <DependentUpon>dsUSER_MAIN.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsWBS.xsc">
+      <DependentUpon>dsWBS.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsWBS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWBS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsWBS.xss">
+      <DependentUpon>dsWBS.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsWORKFLOW_MAIN.xsc">
+      <DependentUpon>dsWORKFLOW_MAIN.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\dsWORKFLOW_MAIN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWORKFLOW_MAIN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Dataset\dsWORKFLOW_MAIN.xss">
+      <DependentUpon>dsWORKFLOW_MAIN.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DBScript\PUNCHLIST_MAIN_PICTURE.sql" />
+    <Content Include="DBScript\CERTIFICATE_DATA.sql" />
+    <Content Include="DBScript\CERTIFICATE_MAIN.sql" />
+    <Content Include="DBScript\CERTIFICATE_STATUS.sql" />
+    <Content Include="DBScript\CERTIFICATE_STATUS_ISSUE.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectLibrary\ProjectLibrary.csproj">
+      <Project>{c58e7952-e71d-417c-8e19-fbf576ee41f5}</Project>
+      <Name>ProjectLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

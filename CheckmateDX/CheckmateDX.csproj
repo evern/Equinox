@@ -1,0 +1,1403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AllowedReferenceRelatedFileExtensions>
+        .allowedExtension
+    </AllowedReferenceRelatedFileExtensions>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{93FA1033-0DA4-428B-B762-067693096BA6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CheckmateDX</RootNamespace>
+    <AssemblyName>CheckmateDX</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>\\primerogroup.com.au\CompanyData\General\CHECKMATEDX\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <MinimumRequiredVersion>1.3.0.2</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.3.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CheckmateDX.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>EC5A51658AF8E23D6FD53865DF9FE6A1975E261D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CheckmateDX_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Set-Program-Default-icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v19.2.Win, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v19.2.UI, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Docs.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Map.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.TreeMap.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.DocumentViewer.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpf.Printing.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v19.2.UI, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v19.2.Presets, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v19.2.Win, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraMap.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPdfViewer.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeMap.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Images.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v19.2.Drawing, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.SpellChecker.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Spreadsheet.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v19.2.UI, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Mvvm.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.CodeView.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v19.2.Wizard, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v19.2.Export, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v19.2.Extensions, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpellChecker.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpreadsheet.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PrimeroSkin">
+      <HintPath>External DLLs\PrimeroSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartThreadPool, Version=1.0.3624.31940, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>External DLLs\SmartThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="zxing">
+      <HintPath>External DLLs\zxing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomCheckedComboBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmCertificateComment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCertificateComment.Designer.cs">
+      <DependentUpon>frmCertificateComment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCertificateRoleSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCertificateRoleSelection.Designer.cs">
+      <DependentUpon>frmCertificateRoleSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMaster_ITR_Status_Breakdown_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMaster_ITR_Status_Breakdown_Report.Designer.cs">
+      <DependentUpon>frmMaster_ITR_Status_Breakdown_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPunchlist_Print_Single.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPunchlist_Print_Single.Designer.cs">
+      <DependentUpon>frmPunchlist_Print_Single.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportSheet.Designer.cs">
+      <DependentUpon>frmReportSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCertificate_NOE_Browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCertificate_NOE_Browse.Designer.cs">
+      <DependentUpon>frmCertificate_NOE_Browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExportTaskSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExportTaskSheet.Designer.cs">
+      <DependentUpon>frmExportTaskSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCertificate_CVC_Browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCertificate_CVC_Browse.Designer.cs">
+      <DependentUpon>frmCertificate_CVC_Browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImageViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImageViewer.Designer.cs">
+      <DependentUpon>frmImageViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWBS_Selection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWBS_Selection.Designer.cs">
+      <DependentUpon>frmWBS_Selection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMaster_ITR_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMaster_ITR_Report.Designer.cs">
+      <DependentUpon>frmMaster_ITR_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCertificate_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCertificate_Add.Designer.cs">
+      <DependentUpon>frmCertificate_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPunchlistImportSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPunchlistImportSheet.Designer.cs">
+      <DependentUpon>frmPunchlistImportSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMasterSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMasterSheet.Designer.cs">
+      <DependentUpon>frmMasterSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCertificate_PunchlistWalkdown_Browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCertificate_PunchlistWalkdown_Browse.Designer.cs">
+      <DependentUpon>frmCertificate_PunchlistWalkdown_Browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCertificate_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCertificate_Main.Designer.cs">
+      <DependentUpon>frmCertificate_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSyncTestCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSyncTestCount.Designer.cs">
+      <DependentUpon>frmSyncTestCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptErrorMessage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptErrorMessage.Designer.cs">
+      <DependentUpon>rptErrorMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptProjectITR.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptProjectITR.Designer.cs">
+      <DependentUpon>rptProjectITR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptProjectPunchlist.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptProjectPunchlist.Designer.cs">
+      <DependentUpon>rptProjectPunchlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptQRcode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptQRcode.Designer.cs">
+      <DependentUpon>rptQRcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptSubsystem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptSubsystem.Designer.cs">
+      <DependentUpon>rptSubsystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptSubsystemPunchlist.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptSubsystemPunchlist.Designer.cs">
+      <DependentUpon>rptSubsystemPunchlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities.cs" />
+    <Compile Include="CustomRichEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomRichEditCommandFactoryService.cs" />
+    <Compile Include="frmDatabase_Config.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatabase_Config.Designer.cs">
+      <DependentUpon>frmDatabase_Config.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmITR_AttachImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmITR_AttachImage.Designer.cs">
+      <DependentUpon>frmITR_AttachImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSync_Cleanup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSync_Cleanup.Designer.cs">
+      <DependentUpon>frmSync_Cleanup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEquipment_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEquipment_Add.Designer.cs">
+      <DependentUpon>frmEquipment_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEquipment_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEquipment_Main.Designer.cs">
+      <DependentUpon>frmEquipment_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInteractable_DatetimePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInteractable_DatetimePicker.Designer.cs">
+      <DependentUpon>frmInteractable_DatetimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInteractable_PictureEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInteractable_PictureEdit.Designer.cs">
+      <DependentUpon>frmInteractable_PictureEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmITR_Browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmITR_Browse.Designer.cs">
+      <DependentUpon>frmITR_Browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmITR_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmITR_Main.Designer.cs">
+      <DependentUpon>frmITR_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmITR_Comment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmITR_Comment.Designer.cs">
+      <DependentUpon>frmITR_Comment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmITR_Select_Discipline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmITR_Select_Discipline.Designer.cs">
+      <DependentUpon>frmITR_Select_Discipline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmITR_Select_Acceptance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmITR_Select_Acceptance.Designer.cs">
+      <DependentUpon>frmITR_Select_Acceptance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrefill_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrefill_Add.Designer.cs">
+      <DependentUpon>frmPrefill_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrefill_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrefill_Main.Designer.cs">
+      <DependentUpon>frmPrefill_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin_Select.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin_Select.Designer.cs">
+      <DependentUpon>frmLogin_Select.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmParent.Designer.cs">
+      <DependentUpon>frmParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPunchlist_Browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPunchlist_Browse.Designer.cs">
+      <DependentUpon>frmPunchlist_Browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPunchlist_Comment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPunchlist_Comment.Designer.cs">
+      <DependentUpon>frmPunchlist_Comment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPunchlist_Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPunchlist_Print.Designer.cs">
+      <DependentUpon>frmPunchlist_Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSchedule_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSchedule_Add.Designer.cs">
+      <DependentUpon>frmSchedule_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSchedule_AddTag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSchedule_AddTag.Designer.cs">
+      <DependentUpon>frmSchedule_AddTag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSchedule_AddWBS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSchedule_AddWBS.Designer.cs">
+      <DependentUpon>frmSchedule_AddWBS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSchedule_Assign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSchedule_Assign.Designer.cs">
+      <DependentUpon>frmSchedule_Assign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSchedule_BulkTag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSchedule_BulkTag.Designer.cs">
+      <DependentUpon>frmSchedule_BulkTag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSchedule_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSchedule_Main.Designer.cs">
+      <DependentUpon>frmSchedule_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSchedule_Matrix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSchedule_Matrix.Designer.cs">
+      <DependentUpon>frmSchedule_Matrix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSchedule_Matrix_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSchedule_Matrix_Add.Designer.cs">
+      <DependentUpon>frmSchedule_Matrix_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSchedule_Prefill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSchedule_Prefill.Designer.cs">
+      <DependentUpon>frmSchedule_Prefill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSync_Manage_Superseded.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSync_Manage_Superseded.Designer.cs">
+      <DependentUpon>frmSync_Manage_Superseded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSync_Manage_Conflict.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSync_Manage_Conflict.Designer.cs">
+      <DependentUpon>frmSync_Manage_Conflict.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSync_Manage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSync_Manage.Designer.cs">
+      <DependentUpon>frmSync_Manage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSync_Status_Superseded.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSync_Status_Superseded.Designer.cs">
+      <DependentUpon>frmSync_Status_Superseded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSync_Status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSync_Status.Designer.cs">
+      <DependentUpon>frmSync_Status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSync_Status_Online.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSync_Status_Online.Designer.cs">
+      <DependentUpon>frmSync_Status_Online.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTemplate_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTemplate_Add.Designer.cs">
+      <DependentUpon>frmTemplate_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTemplate_AddWorkflow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTemplate_AddWorkflow.Designer.cs">
+      <DependentUpon>frmTemplate_AddWorkflow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTemplate_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTemplate_Main.Designer.cs">
+      <DependentUpon>frmTemplate_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTemplate_Design_Superseded.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTemplate_Design_Superseded.Designer.cs">
+      <DependentUpon>frmTemplate_Design_Superseded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTemplate_Browse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTemplate_Browse.Designer.cs">
+      <DependentUpon>frmTemplate_Browse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTemplate_Toggle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTemplate_Toggle.Designer.cs">
+      <DependentUpon>frmTemplate_Toggle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTemplate_Toggle_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTemplate_Toggle_Add.Designer.cs">
+      <DependentUpon>frmTemplate_Toggle_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmITR_Select_Toggle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmITR_Select_Toggle.Designer.cs">
+      <DependentUpon>frmITR_Select_Toggle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTool_Discipline_Auth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTool_Discipline_Auth.Designer.cs">
+      <DependentUpon>frmTool_Discipline_Auth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTool_Project_Auth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTool_Project_Auth.Designer.cs">
+      <DependentUpon>frmTool_Project_Auth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTool_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTool_Main.Designer.cs">
+      <DependentUpon>frmTool_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTool_Project.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTool_Project.Designer.cs">
+      <DependentUpon>frmTool_Project.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTool_Project_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTool_Project_Add.Designer.cs">
+      <DependentUpon>frmTool_Project_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTool_Role.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTool_Role.Designer.cs">
+      <DependentUpon>frmTool_Role.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTool_Role_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTool_Role_Add.Designer.cs">
+      <DependentUpon>frmTool_Role_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTool_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTool_User.Designer.cs">
+      <DependentUpon>frmTool_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTool_User_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTool_User_Add.Designer.cs">
+      <DependentUpon>frmTool_User_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTool_User_ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTool_User_ChangePassword.Designer.cs">
+      <DependentUpon>frmTool_User_ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTool_User_ChangeSignature.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTool_User_ChangeSignature.Designer.cs">
+      <DependentUpon>frmTool_User_ChangeSignature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserReportName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserReportName.Designer.cs">
+      <DependentUpon>frmUserReportName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserReport_Designer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserReport_Designer.Designer.cs">
+      <DependentUpon>frmUserReport_Designer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IdleTimeFinder.cs" />
+    <Compile Include="mdiMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mdiMain.Designer.cs">
+      <DependentUpon>mdiMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressForm.Designer.cs">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmPunchlist_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPunchlist_Main.Designer.cs">
+      <DependentUpon>frmPunchlist_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\XMLWriter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\XMLWriter.Designer.cs">
+      <DependentUpon>XMLWriter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\Dataset\dsDELETION.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDELETION.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CustomUserGroupListService.cs" />
+    <Compile Include="CustomSpreadsheetCommandFactoryService.cs" />
+    <Compile Include="Report\IReport.cs" />
+    <Compile Include="Report\rptBarcode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptBarcode.Designer.cs">
+      <DependentUpon>rptBarcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptDeletion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptDeletion.Designer.cs">
+      <DependentUpon>rptDeletion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptProjectITRDetail.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptProjectITRDetail.Designer.cs">
+      <DependentUpon>rptProjectITRDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptProjectITR_OLD.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptProjectITR_OLD.Designer.cs">
+      <DependentUpon>rptProjectITR_OLD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptPunchlist.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptPunchlist.Designer.cs">
+      <DependentUpon>rptPunchlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\rptSignature.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\rptSignature.Designer.cs">
+      <DependentUpon>rptSignature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\SyncWebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Signature.cs" />
+    <Compile Include="ucSync_Conflict_ITR.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSync_Conflict_ITR.Designer.cs">
+      <DependentUpon>ucSync_Conflict_ITR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm1.Designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WBSSearch.cs" />
+    <EmbeddedResource Include="frmCertificateComment.resx">
+      <DependentUpon>frmCertificateComment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCertificateRoleSelection.resx">
+      <DependentUpon>frmCertificateRoleSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMaster_ITR_Status_Breakdown_Report.resx">
+      <DependentUpon>frmMaster_ITR_Status_Breakdown_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPunchlist_Print_Single.resx">
+      <DependentUpon>frmPunchlist_Print_Single.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportSheet.resx">
+      <DependentUpon>frmReportSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCertificate_NOE_Browse.resx">
+      <DependentUpon>frmCertificate_NOE_Browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDatabase_Config.resx">
+      <DependentUpon>frmDatabase_Config.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExportTaskSheet.resx">
+      <DependentUpon>frmExportTaskSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImageViewer.resx">
+      <DependentUpon>frmImageViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmITR_AttachImage.resx">
+      <DependentUpon>frmITR_AttachImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCertificate_CVC_Browse.resx">
+      <DependentUpon>frmCertificate_CVC_Browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWBS_Selection.resx">
+      <DependentUpon>frmWBS_Selection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMaster_ITR_Report.resx">
+      <DependentUpon>frmMaster_ITR_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCertificate_Add.resx">
+      <DependentUpon>frmCertificate_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPunchlistImportSheet.resx">
+      <DependentUpon>frmPunchlistImportSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMasterSheet.resx">
+      <DependentUpon>frmMasterSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCertificate_PunchlistWalkdown_Browse.resx">
+      <DependentUpon>frmCertificate_PunchlistWalkdown_Browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCertificate_Main.resx">
+      <DependentUpon>frmCertificate_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSyncTestCount.resx">
+      <DependentUpon>frmSyncTestCount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSync_Cleanup.resx">
+      <DependentUpon>frmSync_Cleanup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEquipment_Add.resx">
+      <DependentUpon>frmEquipment_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEquipment_Main.resx">
+      <DependentUpon>frmEquipment_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInteractable_DatetimePicker.resx">
+      <DependentUpon>frmInteractable_DatetimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInteractable_PictureEdit.resx">
+      <DependentUpon>frmInteractable_PictureEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmITR_Browse.resx">
+      <DependentUpon>frmITR_Browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmITR_Main.resx">
+      <DependentUpon>frmITR_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmITR_Comment.resx">
+      <DependentUpon>frmITR_Comment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmITR_Select_Acceptance.resx">
+      <DependentUpon>frmITR_Select_Acceptance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmITR_Select_Discipline.resx">
+      <DependentUpon>frmITR_Select_Discipline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrefill_Add.resx">
+      <DependentUpon>frmPrefill_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrefill_Main.resx">
+      <DependentUpon>frmPrefill_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin_Select.resx">
+      <DependentUpon>frmLogin_Select.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmParent.resx">
+      <DependentUpon>frmParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPunchlist_Browse.resx">
+      <DependentUpon>frmPunchlist_Browse.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPunchlist_Comment.resx">
+      <DependentUpon>frmPunchlist_Comment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPunchlist_Print.resx">
+      <DependentUpon>frmPunchlist_Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSchedule_Add.resx">
+      <DependentUpon>frmSchedule_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSchedule_AddTag.resx">
+      <DependentUpon>frmSchedule_AddTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSchedule_AddWBS.resx">
+      <DependentUpon>frmSchedule_AddWBS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSchedule_Assign.resx">
+      <DependentUpon>frmSchedule_Assign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSchedule_BulkTag.resx">
+      <DependentUpon>frmSchedule_BulkTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSchedule_Main.resx">
+      <DependentUpon>frmSchedule_Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSchedule_Matrix.resx">
+      <DependentUpon>frmSchedule_Matrix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSchedule_Matrix_Add.resx">
+      <DependentUpon>frmSchedule_Matrix_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSchedule_Prefill.resx">
+      <DependentUpon>frmSchedule_Prefill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSync_Manage_Superseded.resx">
+      <DependentUpon>frmSync_Manage_Superseded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSync_Manage_Conflict.resx">
+      <DependentUpon>frmSync_Manage_Conflict.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSync_Manage.resx">
+      <DependentUpon>frmSync_Manage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSync_Status_Superseded.resx">
+      <DependentUpon>frmSync_Status_Superseded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSync_Status.resx">
+      <DependentUpon>frmSync_Status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSync_Status_Online.resx">
+      <DependentUpon>frmSync_Status_Online.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTemplate_Add.resx">
+      <DependentUpon>frmTemplate_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTemplate_AddWorkflow.resx">
+      <DependentUpon>frmTemplate_AddWorkflow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTemplate_Main.resx">
+      <DependentUpon>frmTemplate_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTemplate_Design_Superseded.resx">
+      <DependentUpon>frmTemplate_Design_Superseded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTemplate_Browse.resx">
+      <DependentUpon>frmTemplate_Browse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTemplate_Toggle.resx">
+      <DependentUpon>frmTemplate_Toggle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTemplate_Toggle_Add.resx">
+      <DependentUpon>frmTemplate_Toggle_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmITR_Select_Toggle.resx">
+      <DependentUpon>frmITR_Select_Toggle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTool_Discipline_Auth.resx">
+      <DependentUpon>frmTool_Discipline_Auth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTool_Project_Auth.resx">
+      <DependentUpon>frmTool_Project_Auth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTool_Main.resx">
+      <DependentUpon>frmTool_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTool_Project.resx">
+      <DependentUpon>frmTool_Project.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTool_Project_Add.resx">
+      <DependentUpon>frmTool_Project_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTool_Role.resx">
+      <DependentUpon>frmTool_Role.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTool_Role_Add.resx">
+      <DependentUpon>frmTool_Role_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTool_User.resx">
+      <DependentUpon>frmTool_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTool_User_Add.resx">
+      <DependentUpon>frmTool_User_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTool_User_ChangePassword.resx">
+      <DependentUpon>frmTool_User_ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTool_User_ChangeSignature.resx">
+      <DependentUpon>frmTool_User_ChangeSignature.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserReportName.resx">
+      <DependentUpon>frmUserReportName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserReport_Designer.resx">
+      <DependentUpon>frmUserReport_Designer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mdiMain.resx">
+      <DependentUpon>mdiMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressForm.resx">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="frmPunchlist_Main.resx">
+      <DependentUpon>frmPunchlist_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\XMLWriter.resx">
+      <DependentUpon>XMLWriter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptErrorMessage.resx">
+      <DependentUpon>rptErrorMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptProjectITR.resx">
+      <DependentUpon>rptProjectITR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptProjectPunchlist.resx">
+      <DependentUpon>rptProjectPunchlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptQRcode.resx">
+      <DependentUpon>rptQRcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptBarcode.resx">
+      <DependentUpon>rptBarcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptDeletion.resx">
+      <DependentUpon>rptDeletion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptProjectITRDetail.resx">
+      <DependentUpon>rptProjectITRDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptProjectITR_OLD.resx">
+      <DependentUpon>rptProjectITR_OLD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptPunchlist.resx">
+      <DependentUpon>rptPunchlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptSignature.resx">
+      <DependentUpon>rptSignature.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptSubsystem.resx">
+      <DependentUpon>rptSubsystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\rptSubsystemPunchlist.resx">
+      <DependentUpon>rptSubsystemPunchlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSync_Conflict_ITR.resx">
+      <DependentUpon>ucSync_Conflict_ITR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="app.manifest" />
+    <Content Include="AutoUpdateClient.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\DataSources\Interactables.datasource" />
+    <None Include="Properties\DataSources\Interactives.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.CertificateComments1.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.ChildDeletion.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.ChildDeletionCollection.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Client.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Conflict_Table.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Deletion.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.DeletionCollection.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.ElectricalEq.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Feature.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Header.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.ITR.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.iTRComments.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.ITR_Display.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.MatrixType.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Prefill.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Privilege.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Project.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.ProjectWBS.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Punchlist.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.punchlistComments.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.PurchaseItem.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Role.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Schedule.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.SimpleClass.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.SimpleString.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.SyncOption.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Sync_Status.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Tag.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Template.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Template_Check.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Template_Toggle.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.User.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.ViewModel_CVC.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.ViewModel_ErrorMessage.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.ViewModel_NOE.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.ViewModel_PunchlistWalkdown.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.wbsTagDisplay.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.Workflow.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.WorkflowTagITR.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.WorkflowTagITRWBS.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.WorkflowTemplateTagWBS.datasource" />
+    <None Include="Properties\DataSources\ProjectLibrary.wtDisplay.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Report\Dataset\dsDELETION.xsc">
+      <DependentUpon>dsDELETION.xsd</DependentUpon>
+    </None>
+    <None Include="Report\Dataset\dsDELETION.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDELETION.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Report\Dataset\dsDELETION.xss">
+      <DependentUpon>dsDELETION.xsd</DependentUpon>
+    </None>
+    <None Include="Service References\SyncWebService\Service.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutoUpdate\AutoUpdate.csproj">
+      <Project>{c16e3868-609c-4236-819b-ef2dae9afab0}</Project>
+      <Name>AutoUpdate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DrawingBoard\DrawingBoard.csproj">
+      <Project>{aefa45d6-1d58-4bc9-a413-4887d5b0325f}</Project>
+      <Name>DrawingBoard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectCommon\ProjectCommon.csproj">
+      <Project>{bea7d402-4848-44a4-9b3a-876633d27f12}</Project>
+      <Name>ProjectCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectDatabase\ProjectDatabase.csproj">
+      <Project>{29955a8d-507b-4ce7-a6f2-c9ba3b6a3fc3}</Project>
+      <Name>ProjectDatabase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectLibrary\ProjectLibrary.csproj">
+      <Project>{c58e7952-e71d-417c-8e19-fbf576ee41f5}</Project>
+      <Name>ProjectLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="AutoUpdateServer.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.CodeParser.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.Map.v19.2.Core">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraCharts.v19.2.Extensions">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraGauges.v19.2.Presets">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraGauges.v19.2.Win">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraMap.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="DevExpress.XtraWizard.v19.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LD0005745995_1.jpg" />
+    <Content Include="AutoUpdateServer.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SQL_Queries\ALL.sql" />
+    <Content Include="SQL_Queries\CHECKMATE_DB.sql" />
+    <Content Include="SQL_Queries\ITR_MAIN_FK.sql" />
+    <Content Include="SQL_Queries\ITR_STATUS_FK.sql" />
+    <Content Include="SQL_Queries\ITR_STATUS_ISSUE_FK.sql" />
+    <Content Include="SQL_Queries\PREFILL_TAG_FK.sql" />
+    <Content Include="SQL_Queries\PREFILL_WBS_FK.sql" />
+    <Content Include="SQL_Queries\PROJECT_USER_FK.sql" />
+    <Content Include="SQL_Queries\RECURSIVE_ROLE_STATEMENT.sql" />
+    <Content Include="SQL_Queries\ROLE_PRIVILEGE_FK.sql" />
+    <Content Include="SQL_Queries\SCHEDULE_PROJECT_FK.sql" />
+    <Content Include="SQL_Queries\TAG_SCHEDULE_FK.sql" />
+    <Content Include="SQL_Queries\TEMPLATE_REGISTER_FK.sql" />
+    <Content Include="SQL_Queries\USER_DISC_FK.sql" />
+    <Content Include="SQL_Queries\USER_MAIN_TRG.sql" />
+    <Content Include="SQL_Queries\USER_PROJECT_FK.sql" />
+    <Content Include="SQL_Queries\USER_ROLE_FK.sql" />
+    <Content Include="SQL_Queries\WBS_SCHEDULE_FK.sql" />
+    <Content Include="SQL_Queries\WORKFLOW_PROJECT_FK.sql" />
+    <None Include="Service References\SyncWebService\Service.disco" />
+    <None Include="Service References\SyncWebService\configuration91.svcinfo" />
+    <None Include="Service References\SyncWebService\configuration.svcinfo" />
+    <None Include="Service References\SyncWebService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Set-Program-Default-icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\SyncWebService\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
